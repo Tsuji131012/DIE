@@ -42,7 +42,9 @@
                 android:text="チャーハン"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                app:backgroundTint="@null" />
+                app:backgroundTint="@null"
+                app:icon="@drawable/nasu"
+                app:iconGravity="end"/>
 
             <Button
                 android:id="@+id/button23"
