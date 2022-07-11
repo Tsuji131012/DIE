@@ -1,6 +1,9 @@
 package com.example.die;
 
+import android.app.Activity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +23,15 @@ public class ChoiceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choice);
 
+        View.OnClickListener event = new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), CategoryActivity.class);
+                startActivity(intent);
+            }
+        };
+
         Intent intent = getIntent();
         int getdata =  intent.getIntExtra("SEND_DATA", 0);
 
@@ -34,5 +46,6 @@ public class ChoiceActivity extends AppCompatActivity {
             }
         }
 
+        findViewById(R.id.button).setOnClickListener(event);
     }
 }

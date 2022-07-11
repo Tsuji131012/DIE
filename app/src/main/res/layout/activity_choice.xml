@@ -7,13 +7,19 @@
     tools:context=".ChoiceActivity">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="0dp"
+        android:layout_height="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/dish_text"
@@ -36,10 +42,10 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="20dp"
+                android:background="@drawable/text_main"
                 android:paddingStart="70dp"
                 android:paddingTop="50dp"
                 android:paddingBottom="50dp"
-                android:background="@drawable/text_main"
                 android:text="@string/ingredient_name"
                 android:textAlignment="viewStart"
                 android:textColor="#000000"
@@ -49,13 +55,13 @@
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="113dp"
+                android:layout_marginLeft="40dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginRight="40dp"
-                android:layout_marginLeft="40dp"
+                android:background="@drawable/button_main"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-                android:background="@drawable/button_main"
                 android:text="置き換え"
                 android:textAlignment="center"
                 android:textColor="#000000"
