@@ -69,10 +69,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplication(), ChoiceActivity.class);
                 startActivity(intent);
 
+
                 for (int i = 0; i < DISHIES1; i++) {
                     if (vieww[i] == v) {
-
-                        intent.putExtra("SEND_DATA", i);
+                        String j = String.valueOf(i);
+                        intent.putExtra("SEND_DATA", j);
 
                     }
 
