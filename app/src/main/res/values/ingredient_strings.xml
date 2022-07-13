@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ingredient_name">・玉ねぎ\n・卵\n・長ネギ\n・ハム</string>
+    <string name="ingredient_name0">・玉ねぎ</string>
+    <string name="ingredient_name1">・あさり</string>
+    <string name="ingredient_name2">・ブロッコリー</string>
+    <string name="ingredient_name3">・豚肉</string>
+    <string name="ingredient_name4">・チーズ</string>
+    <string name="ingredient_name5">・大根</string>
+    <string name="ingredient_name6">・エビ</string>
+    <string name="ingredient_name7">・枝豆</string>
+    <string name="ingredient_name8">・エンドウ豆</string>
+    <string name="ingredient_name9">・ごぼう</string>
+    <string name="ingredient_name10">・牛肉</string>
+    <string name="ingredient_name11">・白菜</string>
+    <string name="ingredient_name12">・ハム</string>
+    <string name="ingredient_name13">・ほうれん草</string>
+    <string name="ingredient_name14">・イカ</string>
+    <string name="ingredient_name15">・じゃがいも</string>
+    <string name="ingredient_name16">・かぼちゃ</string>
+    <string name="ingredient_name17">・きゅうり</string>
+    <string name="ingredient_name18">・もやし</string>
+    <string name="ingredient_name19">・長芋</string>
+    <string name="ingredient_name20">・菜の花</string>
+    <string name="ingredient_name21">・ナス</string>
+    <string name="ingredient_name22">・納豆</string>
+    <string name="ingredient_name23">・ネギ</string>
+    <string name="ingredient_name24">・人参</string>
+    <string name="ingredient_name25">・オクラ</string>
+    <string name="ingredient_name26">・パプリカ</string>
+    <string name="ingredient_name27">・れんこん</string>
+    <string name="ingredient_name28">・鯖</string>
+    <string name="ingredient_name29">・鮭</string>
+    <string name="ingredient_name30">・サツマイモ</string>
+    <string name="ingredient_name31">・セロリ</string>
+    <string name="ingredient_name32">・しめじ</string>
+    <string name="ingredient_name33">・タケノコ</string>
+    <string name="ingredient_name34">・卵</string>
+    <string name="ingredient_name35">・トマト</string>
+    <string name="ingredient_name36">・鶏肉</string>
+    <string name="ingredient_name37">・豆腐</string>
+    <string name="ingredient_name38">・とうもろこし</string>
+    <string name="ingredient_name39">・ウインナー</string>
+
 </resources>
