@@ -38,88 +38,93 @@ public class ChoiceActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.dish_text);
 
         switch (getdata) {
+            case 0:
+                dish = getString(R.string.dish_name0);
+                tv.setText(dish);
+                ingredient[0] = getString(R.string.ingredient_name);
+                break;
             case 1:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name1);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 2:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name2);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 3:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name3);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 4:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name4);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 5:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name5);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 6:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name6);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 7:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name7);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 8:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name8);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 9:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name9);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 10:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name10);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 11:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name11);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 12:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name12);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 13:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name13);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 14:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name14);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 15:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name15);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 16:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name16);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
             case 17:
-                dish = getString(R.string.dish_name);
+                dish = getString(R.string.dish_name17);
                 tv.setText(dish);
                 ingredient[0] = getString(R.string.ingredient_name);
                 break;
