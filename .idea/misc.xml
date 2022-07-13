@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/banosota/Documents/GitHub/DIE/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1705" />
         <entry key="..\:/Users/banosota/Documents/GitHub/DIE/app/src/main/res/drawable/button_main.xml" value="0.2265" />
+        <entry key="..\:/Users/banosota/Documents/GitHub/DIE/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1705" />
+        <entry key="..\:/Users/banosota/Documents/GitHub/DIE/app/src/main/res/drawable/text_main.xml" value="0.1705" />
         <entry key="..\:/Users/banosota/Documents/GitHub/DIE/app/src/main/res/layout/activity_card.xml" value="0.18432971014492755" />
         <entry key="..\:/Users/banosota/Documents/GitHub/DIE/app/src/main/res/layout/activity_category.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/banosota/Documents/GitHub/DIE/app/src/main/res/layout/activity_choice.xml" value="0.22826086956521738" />

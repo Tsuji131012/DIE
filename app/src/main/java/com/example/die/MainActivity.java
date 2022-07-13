@@ -33,7 +33,7 @@ import org.xml.sax.SAXException;
 
 public class MainActivity extends AppCompatActivity {
 
-    final int DISHIES1 = 13;
+    final int DISHIES1 = 18;
     View vieww[] = new View[DISHIES1];
 
     @Override
@@ -56,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
         vieww[11]=findViewById(R.id.button11);
         vieww[12]=findViewById(R.id.button12);
         vieww[13]=findViewById(R.id.button13);
+        vieww[14]=findViewById(R.id.button14);
+        vieww[15]=findViewById(R.id.button15);
+        vieww[16]=findViewById(R.id.button16);
+        vieww[17]=findViewById(R.id.button17);
 
 
         View.OnClickListener event = new View.OnClickListener() {
@@ -90,6 +94,10 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button11).setOnClickListener(event);
         findViewById(R.id.button12).setOnClickListener(event);
         findViewById(R.id.button13).setOnClickListener(event);
+        findViewById(R.id.button14).setOnClickListener(event);
+        findViewById(R.id.button15).setOnClickListener(event);
+        findViewById(R.id.button16).setOnClickListener(event);
+        findViewById(R.id.button17).setOnClickListener(event);
 
     }
 }
