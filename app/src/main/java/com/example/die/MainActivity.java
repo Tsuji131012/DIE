@@ -33,7 +33,7 @@ import org.xml.sax.SAXException;
 
 public class MainActivity extends AppCompatActivity {
 
-    final int DISHIES1 = 7;
+    final int DISHIES1 = 13;
     View vieww[] = new View[DISHIES1];
 
     @Override
