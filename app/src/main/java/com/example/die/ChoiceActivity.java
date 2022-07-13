@@ -15,7 +15,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ChoiceActivity extends AppCompatActivity {
 
-    final int DISHIES2 = 14;
     String dish;
     String ingredient[] = new String[10];
 
