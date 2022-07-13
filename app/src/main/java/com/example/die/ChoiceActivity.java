@@ -33,12 +33,11 @@ public class ChoiceActivity extends AppCompatActivity {
         };
 
         Intent intent = getIntent();
-        String getdata =  intent.getStringExtra("SEND_DATA");
-        int intdata = Integer.parseInt(getdata);
+        int getdata =  intent.getIntExtra("SEND_DATA", 0);
 
         TextView tv = findViewById(R.id.dish_text);
 
-        switch (intdata) {
+        switch (getdata) {
             case 0:
                 dish = getString(R.string.dish_name0);
                 tv.setText(dish);

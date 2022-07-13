@@ -34,7 +34,6 @@ import org.xml.sax.SAXException;
 public class MainActivity extends AppCompatActivity {
 
     final int DISHIES1 = 18;
-    View vieww[] = new View[DISHIES1];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,42 +41,52 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        vieww[0]=findViewById(R.id.button0);
-        vieww[1]=findViewById(R.id.button1);
-        vieww[2]=findViewById(R.id.button2);
-        vieww[3]=findViewById(R.id.button3);
-        vieww[4]=findViewById(R.id.button4);
-        vieww[5]=findViewById(R.id.button5);
-        vieww[6]=findViewById(R.id.button6);
-        vieww[7]=findViewById(R.id.button7);
-        vieww[8]=findViewById(R.id.button8);
-        vieww[9]=findViewById(R.id.button9);
-        vieww[10]=findViewById(R.id.button10);
-        vieww[11]=findViewById(R.id.button11);
-        vieww[12]=findViewById(R.id.button12);
-        vieww[13]=findViewById(R.id.button13);
-        vieww[14]=findViewById(R.id.button14);
-        vieww[15]=findViewById(R.id.button15);
-        vieww[16]=findViewById(R.id.button16);
-        vieww[17]=findViewById(R.id.button17);
-
-
         View.OnClickListener event = new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), ChoiceActivity.class);
-                startActivity(intent);
-
 
                 for (int i = 0; i < DISHIES1; i++) {
-                    if (vieww[i] == v) {
-                        String j = String.valueOf(i);
-                        intent.putExtra("SEND_DATA", j);
-
+                    if (v.getId() == R.id.button0) {
+                        intent.putExtra("SEND_DATA", 0);
+                    } else if (v.getId() == R.id.button1) {
+                        intent.putExtra("SEND_DATA", 1);
+                    } else if (v.getId() == R.id.button2) {
+                        intent.putExtra("SEND_DATA", 2);
+                    } else if (v.getId() == R.id.button3) {
+                        intent.putExtra("SEND_DATA", 3);
+                    } else if (v.getId() == R.id.button4) {
+                        intent.putExtra("SEND_DATA", 4);
+                    } else if (v.getId() == R.id.button5) {
+                        intent.putExtra("SEND_DATA", 5);
+                    } else if (v.getId() == R.id.button6) {
+                        intent.putExtra("SEND_DATA", 6);
+                    } else if (v.getId() == R.id.button7) {
+                        intent.putExtra("SEND_DATA", 7);
+                    } else if (v.getId() == R.id.button8) {
+                        intent.putExtra("SEND_DATA", 8);
+                    } else if (v.getId() == R.id.button9) {
+                        intent.putExtra("SEND_DATA", 9);
+                    } else if (v.getId() == R.id.button10) {
+                        intent.putExtra("SEND_DATA", 10);
+                    } else if (v.getId() == R.id.button11) {
+                        intent.putExtra("SEND_DATA", 11);
+                    } else if (v.getId() == R.id.button12) {
+                        intent.putExtra("SEND_DATA", 12);
+                    } else if (v.getId() == R.id.button13) {
+                        intent.putExtra("SEND_DATA", 13);
+                    } else if (v.getId() == R.id.button14) {
+                        intent.putExtra("SEND_DATA", 14);
+                    } else if (v.getId() == R.id.button15) {
+                        intent.putExtra("SEND_DATA", 15);
+                    } else if (v.getId() == R.id.button16) {
+                        intent.putExtra("SEND_DATA", 16);
+                    } else if (v.getId() == R.id.button17) {
+                        intent.putExtra("SEND_DATA", 17);
                     }
-
                 }
+                startActivity(intent);
             }
         };
 
