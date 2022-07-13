@@ -49,6 +49,13 @@ public class MainActivity extends AppCompatActivity {
         vieww[4]=findViewById(R.id.button4);
         vieww[5]=findViewById(R.id.button5);
         vieww[6]=findViewById(R.id.button6);
+        vieww[7]=findViewById(R.id.button7);
+        vieww[8]=findViewById(R.id.button8);
+        vieww[9]=findViewById(R.id.button9);
+        vieww[10]=findViewById(R.id.button10);
+        vieww[11]=findViewById(R.id.button11);
+        vieww[12]=findViewById(R.id.button12);
+        vieww[13]=findViewById(R.id.button13);
 
 
         View.OnClickListener event = new View.OnClickListener() {
@@ -76,6 +83,13 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button4).setOnClickListener(event);
         findViewById(R.id.button5).setOnClickListener(event);
         findViewById(R.id.button6).setOnClickListener(event);
+        findViewById(R.id.button7).setOnClickListener(event);
+        findViewById(R.id.button8).setOnClickListener(event);
+        findViewById(R.id.button9).setOnClickListener(event);
+        findViewById(R.id.button10).setOnClickListener(event);
+        findViewById(R.id.button11).setOnClickListener(event);
+        findViewById(R.id.button12).setOnClickListener(event);
+        findViewById(R.id.button13).setOnClickListener(event);
 
     }
 }
