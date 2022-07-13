@@ -51,7 +51,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_main"
-                android:text="チャーハン"
+                android:text="カレー"
                 android:textColor="#000000"
                 android:textSize="34sp"
                 app:backgroundTint="@null" />
@@ -63,7 +63,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_main"
-                android:text="チャーハン"
+                android:text="焼きそば"
                 android:textColor="#000000"
                 android:textSize="34sp"
                 app:backgroundTint="@null" />
@@ -75,7 +75,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_main"
-                android:text="チャーハン"
+                android:text="牛丼"
                 android:textColor="#000000"
                 android:textSize="34sp"
                 app:backgroundTint="@null" />
@@ -87,7 +87,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_main"
-                android:text="チャーハン"
+                android:text="肉じゃが"
                 android:textColor="#000000"
                 android:textSize="34sp"
                 app:backgroundTint="@null" />
@@ -99,7 +99,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_main"
-                android:text="チャーハン"
+                android:text="麻婆豆腐"
                 android:textColor="#000000"
                 android:textSize="34sp"
                 app:backgroundTint="@null" />
@@ -111,7 +111,91 @@
                 android:layout_marginTop="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_main"
-                android:text="チャーハン"
+                android:text="グラタン"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_main"
+                android:text="味噌汁"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_main"
+                android:text="お好み焼き"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_main"
+                android:text="オムライス"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_main"
+                android:text="たこ焼き"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_main"
+                android:text="酢豚"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_main"
+                android:text="ポトフ"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_main"
+                android:text="野菜炒め"
                 android:textColor="#000000"
                 android:textSize="34sp"
                 app:backgroundTint="@null" />
