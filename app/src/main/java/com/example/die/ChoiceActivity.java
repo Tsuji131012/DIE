@@ -71,6 +71,12 @@ public class ChoiceActivity extends AppCompatActivity {
                 Optional<String> line = br.lines().skip(linenumber).findFirst();
                 dish[0]=line.get();
             }
+        }catch(FileNotFoundException e){
+            // エラーの場合は出力先は標準出力(System.out)ではなく 標準エラー出力(System.err)に
+            System.err.println(e);
+        }catch(IOException e){
+            System.err.println(e);
+        }
 
 
 
