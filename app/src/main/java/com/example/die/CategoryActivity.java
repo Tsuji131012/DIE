@@ -18,6 +18,7 @@ public class CategoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
 
+        //カード選択画面に遷移する
         View.OnClickListener event = new View.OnClickListener() {
 
             @Override
@@ -27,6 +28,7 @@ public class CategoryActivity extends AppCompatActivity {
             }
         };
 
+        //料理選択画面に戻る
         View.OnClickListener event2 = new View.OnClickListener() {
 
             @Override
@@ -35,6 +37,7 @@ public class CategoryActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         };
+
 
         findViewById(R.id.changebutton1).setOnClickListener(event);
         findViewById(R.id.changebutton2).setOnClickListener(event);

@@ -18,6 +18,7 @@ public class CardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card);
 
+        //料理選択画面に戻る
         View.OnClickListener event2 = new View.OnClickListener() {
 
             @Override

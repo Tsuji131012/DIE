@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //料理・材料確認画面に遷移し、また押したボタンのデータを渡す
         View.OnClickListener event = new View.OnClickListener() {
 
             @Override
@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
+        //料理選択画面に戻る
         View.OnClickListener event2 = new View.OnClickListener() {
 
             @Override
@@ -99,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         };
+
 
         findViewById(R.id.button0).setOnClickListener(event);
         findViewById(R.id.button1).setOnClickListener(event);

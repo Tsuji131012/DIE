@@ -23,6 +23,7 @@ public class ChoiceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choice);
 
+        //カテゴリー選択画面に遷移する
         View.OnClickListener event = new View.OnClickListener() {
 
             @Override
@@ -32,6 +33,7 @@ public class ChoiceActivity extends AppCompatActivity {
             }
         };
 
+        //料理選択画面に戻る
         View.OnClickListener event2 = new View.OnClickListener() {
 
             @Override
@@ -41,9 +43,11 @@ public class ChoiceActivity extends AppCompatActivity {
             }
         };
 
+        //料理選択画面から送られてきたボタンのデータを受け取る
         Intent intent = getIntent();
         int getdata =  intent.getIntExtra("SEND_DATA", 0);
 
+        //受け取ったボタンより、文字を変える
         TextView tv = findViewById(R.id.dish_text);
 
         switch (getdata) {
@@ -138,6 +142,7 @@ public class ChoiceActivity extends AppCompatActivity {
                 ingredient[0] = getString(R.string.ingredient_name18);
                 break;
         }
+
 
         findViewById(R.id.button).setOnClickListener(event);
 
