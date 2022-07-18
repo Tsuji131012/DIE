@@ -7,6 +7,18 @@
     tools:context=".CardActivity">
 
     <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="94dp"
+        android:layout_height="90dp"
+        android:background="@drawable/button_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/fork_and_knife" />
+
+    <ImageView
         android:id="@+id/imageView16"
         android:layout_width="110dp"
         android:layout_height="110dp"
@@ -15,7 +27,7 @@
         app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24000001"
+        app:layout_constraintVertical_bias="0.19999999"
         app:srcCompat="@drawable/card" />
 
     <ImageView
@@ -27,7 +39,7 @@
         app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24000001"
+        app:layout_constraintVertical_bias="0.19999999"
         app:srcCompat="@drawable/card" />
 
     <ImageView
@@ -38,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24000001"
+        app:layout_constraintVertical_bias="0.19999999"
         app:srcCompat="@drawable/card" />
 
     <HorizontalScrollView
@@ -50,7 +62,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7">
+        app:layout_constraintVertical_bias="0.65999997">
 
         <LinearLayout
             android:layout_width="wrap_content"
