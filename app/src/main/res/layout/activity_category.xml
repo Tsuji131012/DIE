@@ -7,7 +7,7 @@
     tools:context=".CategoryActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/home"
         android:layout_width="94dp"
         android:layout_height="90dp"
         android:background="@drawable/button_main"

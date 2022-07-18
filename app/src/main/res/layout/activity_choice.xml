@@ -7,7 +7,7 @@
     tools:context=".ChoiceActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/home"
         android:layout_width="94dp"
         android:layout_height="90dp"
         android:background="@drawable/button_main"

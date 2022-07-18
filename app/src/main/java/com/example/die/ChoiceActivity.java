@@ -32,6 +32,15 @@ public class ChoiceActivity extends AppCompatActivity {
             }
         };
 
+        View.OnClickListener event2 = new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), MainActivity.class);
+                startActivity(intent);
+            }
+        };
+
         Intent intent = getIntent();
         int getdata =  intent.getIntExtra("SEND_DATA", 0);
 
@@ -131,5 +140,7 @@ public class ChoiceActivity extends AppCompatActivity {
         }
 
         findViewById(R.id.button).setOnClickListener(event);
+
+        findViewById(R.id.home).setOnClickListener(event2);
     }
 }

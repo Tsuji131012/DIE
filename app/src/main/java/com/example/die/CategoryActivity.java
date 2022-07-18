@@ -27,9 +27,20 @@ public class CategoryActivity extends AppCompatActivity {
             }
         };
 
+        View.OnClickListener event2 = new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), MainActivity.class);
+                startActivity(intent);
+            }
+        };
+
         findViewById(R.id.changebutton1).setOnClickListener(event);
         findViewById(R.id.changebutton2).setOnClickListener(event);
         findViewById(R.id.changebutton3).setOnClickListener(event);
+
+        findViewById(R.id.home).setOnClickListener(event2);
     }
 
 

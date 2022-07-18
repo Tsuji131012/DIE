@@ -2,6 +2,7 @@ package com.example.die;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 
 import android.content.Intent;
@@ -90,6 +91,15 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
+        View.OnClickListener event2 = new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), MainActivity.class);
+                startActivity(intent);
+            }
+        };
+
         findViewById(R.id.button0).setOnClickListener(event);
         findViewById(R.id.button1).setOnClickListener(event);
         findViewById(R.id.button2).setOnClickListener(event);
@@ -108,6 +118,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button15).setOnClickListener(event);
         findViewById(R.id.button16).setOnClickListener(event);
         findViewById(R.id.button17).setOnClickListener(event);
+
+        findViewById(R.id.home).setOnClickListener(event2);
 
     }
 }
