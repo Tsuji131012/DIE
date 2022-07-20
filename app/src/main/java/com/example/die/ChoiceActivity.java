@@ -161,7 +161,7 @@ public class ChoiceActivity extends AppCompatActivity {
                 ingredient[0] = getString(R.string.ingredient_name58);
                 ingredient[1] = getString(R.string.ingredient_name23);
                 ingredient[2] = getString(R.string.ingredient_name3);
-                ingredient[2] = getString(R.string.ingredient_name14);
+                ingredient[3] = getString(R.string.ingredient_name14);
                 for (int i = 0; i < 4; i++) {
                     istr.append(ingredient[i]);
                     istr.append("\n");
@@ -253,7 +253,7 @@ public class ChoiceActivity extends AppCompatActivity {
                 ingredient[0] = getString(R.string.ingredient_name12);
                 ingredient[1] = getString(R.string.ingredient_name65);
                 ingredient[2] = getString(R.string.ingredient_name35);
-                for (int i = 0; i < 4; i++) {
+                for (int i = 0; i < 3; i++) {
                     istr.append(ingredient[i]);
                     istr.append("\n");
                 }
