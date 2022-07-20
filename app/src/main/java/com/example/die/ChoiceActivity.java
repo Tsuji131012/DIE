@@ -17,6 +17,7 @@ public class ChoiceActivity extends AppCompatActivity {
 
     String dish;
     String ingredient[] = new String[10];
+    StringBuilder istr = new StringBuilder("");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,98 +49,243 @@ public class ChoiceActivity extends AppCompatActivity {
         int getdata =  intent.getIntExtra("SEND_DATA", 0);
 
         //受け取ったボタンより、文字を変える
-        TextView tv = findViewById(R.id.dish_text);
+        TextView dv = findViewById(R.id.dish_text);
+        TextView iv = findViewById(R.id.ingredient_text);
 
         switch (getdata) {
             case 0:
                 dish = getString(R.string.dish_name0);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name1);
+                ingredient[0] = getString(R.string.ingredient_name0);
+                ingredient[1] = getString(R.string.ingredient_name34);
+                ingredient[2] = getString(R.string.ingredient_name23);
+                ingredient[3] = getString(R.string.ingredient_name12);
+                for (int i = 0; i < 4; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 1:
                 dish = getString(R.string.dish_name1);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name2);
+                ingredient[0] = getString(R.string.ingredient_name15);
+                ingredient[1] = getString(R.string.ingredient_name10);
+                ingredient[2] = getString(R.string.ingredient_name24);
+                ingredient[3] = getString(R.string.ingredient_name0);
+                for (int i = 0; i < 4; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 2:
                 dish = getString(R.string.dish_name2);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name3);
+                ingredient[0] = getString(R.string.ingredient_name24);
+                ingredient[1] = getString(R.string.ingredient_name0);
+                ingredient[2] = getString(R.string.ingredient_name3);
+                ingredient[3] = getString(R.string.ingredient_name58);
+                ingredient[4] = getString(R.string.ingredient_name18);
+                for (int i = 0; i < 5; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 3:
                 dish = getString(R.string.dish_name3);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name4);
+                ingredient[0] = getString(R.string.ingredient_name10);
+                ingredient[1] = getString(R.string.ingredient_name0);
+                ingredient[2] = getString(R.string.ingredient_name77);
+                for (int i = 0; i < 3; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 4:
                 dish = getString(R.string.dish_name4);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name5);
+                ingredient[0] = getString(R.string.ingredient_name10);
+                ingredient[1] = getString(R.string.ingredient_name0);
+                ingredient[2] = getString(R.string.ingredient_name24);
+                ingredient[3] = getString(R.string.ingredient_name15);
+                for (int i = 0; i < 4; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 5:
                 dish = getString(R.string.dish_name5);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name6);
+                ingredient[0] = getString(R.string.ingredient_name37);
+                ingredient[1] = getString(R.string.ingredient_name23);
+                ingredient[2] = getString(R.string.ingredient_name79);
+                for (int i = 0; i < 3; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 6:
                 dish = getString(R.string.dish_name6);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name7);
+                ingredient[0] = getString(R.string.ingredient_name80);
+                ingredient[1] = getString(R.string.ingredient_name36);
+                ingredient[2] = getString(R.string.ingredient_name6);
+                ingredient[3] = getString(R.string.ingredient_name0);
+                ingredient[4] = getString(R.string.ingredient_name59);
+                for (int i = 0; i < 5; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 7:
                 dish = getString(R.string.dish_name7);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name8);
+                ingredient[0] = getString(R.string.ingredient_name41);
+                ingredient[1] = getString(R.string.ingredient_name37);
+                ingredient[2] = getString(R.string.ingredient_name74);
+                for (int i = 0; i < 3; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 8:
                 dish = getString(R.string.dish_name8);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name9);
+                ingredient[0] = getString(R.string.ingredient_name58);
+                ingredient[1] = getString(R.string.ingredient_name23);
+                ingredient[2] = getString(R.string.ingredient_name3);
+                ingredient[2] = getString(R.string.ingredient_name14);
+                for (int i = 0; i < 4; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 9:
                 dish = getString(R.string.dish_name9);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name10);
+                ingredient[0] = getString(R.string.ingredient_name0);
+                ingredient[1] = getString(R.string.ingredient_name36);
+                ingredient[2] = getString(R.string.ingredient_name82);
+                for (int i = 0; i < 3; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 10:
                 dish = getString(R.string.dish_name10);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name11);
+                ingredient[0] = getString(R.string.ingredient_name83);
+                ingredient[1] = getString(R.string.ingredient_name23);
+                ingredient[2] = getString(R.string.ingredient_name84);
+                for (int i = 0; i < 3; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 11:
                 dish = getString(R.string.dish_name11);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name12);
+                ingredient[0] = getString(R.string.ingredient_name3);
+                ingredient[1] = getString(R.string.ingredient_name24);
+                ingredient[2] = getString(R.string.ingredient_name85);
+                ingredient[3] = getString(R.string.ingredient_name0);
+                for (int i = 0; i < 4; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 12:
                 dish = getString(R.string.dish_name12);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name13);
+                ingredient[0] = getString(R.string.ingredient_name39);
+                ingredient[1] = getString(R.string.ingredient_name58);
+                ingredient[2] = getString(R.string.ingredient_name15);
+                ingredient[3] = getString(R.string.ingredient_name24);
+                ingredient[4] = getString(R.string.ingredient_name0);
+                for (int i = 0; i < 5; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 13:
                 dish = getString(R.string.dish_name13);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name14);
+                ingredient[0] = getString(R.string.ingredient_name58);
+                ingredient[1] = getString(R.string.ingredient_name0);
+                ingredient[2] = getString(R.string.ingredient_name18);
+                ingredient[3] = getString(R.string.ingredient_name85);
+                ingredient[4] = getString(R.string.ingredient_name24);
+                for (int i = 0; i < 5; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 14:
                 dish = getString(R.string.dish_name14);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name15);
+                ingredient[0] = getString(R.string.ingredient_name3);
+                ingredient[1] = getString(R.string.ingredient_name9);
+                ingredient[2] = getString(R.string.ingredient_name24);
+                ingredient[3] = getString(R.string.ingredient_name23);
+                ingredient[4] = getString(R.string.ingredient_name57);
+                for (int i = 0; i < 5; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 15:
                 dish = getString(R.string.dish_name15);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name16);
+                ingredient[0] = getString(R.string.ingredient_name12);
+                ingredient[1] = getString(R.string.ingredient_name65);
+                ingredient[2] = getString(R.string.ingredient_name35);
+                for (int i = 0; i < 4; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 16:
                 dish = getString(R.string.dish_name16);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name17);
+                ingredient[0] = getString(R.string.ingredient_name79);
+                ingredient[1] = getString(R.string.ingredient_name86);
+                ingredient[2] = getString(R.string.ingredient_name65);
+                ingredient[3] = getString(R.string.ingredient_name82);
+                for (int i = 0; i < 4; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
             case 17:
                 dish = getString(R.string.dish_name17);
-                tv.setText(dish);
-                ingredient[0] = getString(R.string.ingredient_name18);
+                ingredient[0] = getString(R.string.ingredient_name3);
+                ingredient[1] = getString(R.string.ingredient_name24);
+                ingredient[2] = getString(R.string.ingredient_name0);
+                ingredient[3] = getString(R.string.ingredient_name15);
+                ingredient[4] = getString(R.string.ingredient_name59);
+                for (int i = 0; i < 5; i++) {
+                    istr.append(ingredient[i]);
+                    istr.append("\n");
+                }
+                dv.setText(dish);
+                iv.setText(istr.toString());
                 break;
         }
 

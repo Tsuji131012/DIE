@@ -77,5 +77,14 @@
     <string name="ingredient_name74">・わかめ</string>
     <string name="ingredient_name75">・焼き鳥</string>
     <string name="ingredient_name76">・ズッキーニ</string>
-
+    <string name="ingredient_name77">・紅しょうが</string>
+    <string name="ingredient_name78">・糸こんにゃく</string>
+    <string name="ingredient_name79">・ひき肉(牛)</string>
+    <string name="ingredient_name80">・マカロニ</string>
+    <string name="ingredient_name81">・白味噌</string>
+    <string name="ingredient_name82">・ケチャップ</string>
+    <string name="ingredient_name83">・タコ</string>
+    <string name="ingredient_name84">・マヨネーズ</string>
+    <string name="ingredient_name85">・ピーマン</string>
+    <string name="ingredient_name86">・ピクルス</string>
 </resources>
