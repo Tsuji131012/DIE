@@ -13,6 +13,16 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
+//text
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+
+
 public class ChoiceActivity extends AppCompatActivity {
 
     String dish;
@@ -46,11 +56,24 @@ public class ChoiceActivity extends AppCompatActivity {
 
         //料理選択画面から送られてきたボタンのデータを受け取る
         Intent intent = getIntent();
-        int getdata =  intent.getIntExtra("SEND_DATA", 0);
+        int getdata = intent.getIntExtra("SEND_DATA", 0);
 
         //受け取ったボタンより、文字を変える
         TextView dv = findViewById(R.id.dish_text);
         TextView iv = findViewById(R.id.ingredient_text);
+
+
+        //text
+        String ingre = "";
+
+        int ing[] = new int[8];
+        for (int i = 0; i < 8; i++) {
+            ing[i] = 8 * getdata + i;
+        }
+
+        ingre = readFromFile(ing[],1);
+        //これでingreに料理名が入っているはず。
+
 
         switch (getdata) {
             case 0:
@@ -63,7 +86,7 @@ public class ChoiceActivity extends AppCompatActivity {
                     istr.append(ingredient[i]);
                     istr.append("\n");
                 }
-                dv.setText(dish);
+                dv.setText(ingre);
                 iv.setText(istr.toString());
                 break;
             case 1:
@@ -293,5 +316,36 @@ public class ChoiceActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(event);
 
         findViewById(R.id.home).setOnClickListener(event2);
+    }
+
+    private String readFromFile(int[] ingre, int len) throws IOException {
+        int count = 0;
+
+        String result = "";
+        InputStream inputStream = openFileInput("ingredient.txt");
+
+        if (inputStream != null) {
+            InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+
+
+            String tempString = "";
+            String tempString2 = "";
+            StringBuilder stringBuilder = new StringBuilder();
+            StringBuilder stringBuilder2 = new StringBuilder();
+
+            while ((tempString = bufferedReader.readLine()) != null) {
+                for (int i = 0; i < len; i++) {
+                    if (count == ingre[i]) {
+                        stringBuilder.append(tempString2);
+                    }
+                }
+                count++;
+                stringBuilder2.append(tempString);
+            }
+            inputStream.close();
+            result = stringBuilder.toString();
+        }
+        return result;
     }
 }
