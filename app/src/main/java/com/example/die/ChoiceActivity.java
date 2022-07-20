@@ -65,34 +65,20 @@ public class ChoiceActivity extends AppCompatActivity {
         TextView iv = findViewById(R.id.ingredient_text);
 
 
-        //text
-        String ingre = "";
-
-        int ing[] = new int[8];
-        for (int i = 0; i < 8; i++) {
-            ing[i] = 8 * getdata + i;
-        }
-
-        try {
-            ingre = readFromFile(ing,1);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        //これでingreに料理名が入っているはず。
-
-
         switch (getdata) {
             case 0:
                 dish = getString(R.string.dish_name0);
-                ingredient[0] = getString(R.string.ingredient_name0);
                 ingredient[1] = getString(R.string.ingredient_name34);
                 ingredient[2] = getString(R.string.ingredient_name23);
                 ingredient[3] = getString(R.string.ingredient_name12);
+                String j = "ingredient_name0";
+                int viewId = getResources().getIdentifier(j, "string", getPackageName());
+                ingredient[0] = getString(viewId);
                 for (int i = 0; i < 4; i++) {
                     istr.append(ingredient[i]);
                     istr.append("\n");
                 }
-                dv.setText(ingre);
+                dv.setText(dish);
                 iv.setText(istr.toString());
                 break;
             case 1:

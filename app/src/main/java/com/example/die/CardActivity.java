@@ -57,7 +57,7 @@ public class CardActivity extends AppCompatActivity {
 
                 for (int i = 0; i < 3; i++) {
                     if (v.getId() == cardnum[i]) {
-                        ((ImageView) findViewById(cardnum[i])).setImageResource(getdataC);
+                        ((ImageView) findViewById(cardnum[i])).setImageResource(R.drawable.aburaage);
                     }
                 }
             }
