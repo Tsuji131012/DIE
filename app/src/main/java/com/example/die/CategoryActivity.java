@@ -24,7 +24,7 @@ public class CategoryActivity extends AppCompatActivity {
 
 
 
-            //Choiceから受け取った料理の番号
+            //Mainから受け取った料理の番号
             Intent intent = getIntent();
             int getdata =  intent.getIntExtra("SEND_DATA", 0);
 
@@ -39,46 +39,6 @@ public class CategoryActivity extends AppCompatActivity {
                         intent.putExtra("SEND_DATACARD", 2);
                     } else if (v.getId() == R.id.changebutton3) {
                         intent.putExtra("SEND_DATACARD", 3);
-                    }
-                }
-                //料理番号
-                for (int i = getdata; i < getdata+1; i++) {
-                    if (i == 0) {
-                        intent.putExtra("SEND_DATA", 0);
-                    } else if (i == 1) {
-                        intent.putExtra("SEND_DATA", 1);
-                    } else if (i == 2) {
-                        intent.putExtra("SEND_DATA", 2);
-                    } else if (i == 3) {
-                        intent.putExtra("SEND_DATA", 3);
-                    } else if (i == 4) {
-                        intent.putExtra("SEND_DATA", 4);
-                    } else if (i == 5) {
-                        intent.putExtra("SEND_DATA", 5);
-                    } else if (i == 6) {
-                        intent.putExtra("SEND_DATA", 6);
-                    } else if (i == 7) {
-                        intent.putExtra("SEND_DATA", 7);
-                    } else if (i == 8) {
-                        intent.putExtra("SEND_DATA", 8);
-                    } else if (i == 9) {
-                        intent.putExtra("SEND_DATA", 9);
-                    } else if (i == 10) {
-                        intent.putExtra("SEND_DATA", 10);
-                    } else if (i == 11) {
-                        intent.putExtra("SEND_DATA", 11);
-                    } else if (i == 12) {
-                        intent.putExtra("SEND_DATA", 12);
-                    } else if (i == 13) {
-                        intent.putExtra("SEND_DATA", 13);
-                    } else if (i == 14) {
-                        intent.putExtra("SEND_DATA", 14);
-                    } else if (i == 15) {
-                        intent.putExtra("SEND_DATA", 15);
-                    } else if (i == 16) {
-                        intent.putExtra("SEND_DATA", 16);
-                    } else if (i == 17) {
-                        intent.putExtra("SEND_DATA", 17);
                     }
                 }
                 startActivity(intent);

@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/fork_and_knife" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/card0"
         android:layout_width="110dp"
         android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/card" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/card1"
         android:layout_width="110dp"
         android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
         app:srcCompat="@drawable/card" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/card2"
         android:layout_width="110dp"
         android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"

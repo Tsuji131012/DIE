@@ -9,10 +9,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-
-
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 
 public class CardActivity extends AppCompatActivity {
@@ -40,47 +43,21 @@ public class CardActivity extends AppCompatActivity {
                 break;
         }
 
-        //料理番号
-        for (int i = getdata; i < getdata+1; i++) {
-            if (i == 0) {
-                intent.putExtra("SEND_DATA", 0);
-            } else if (i == 1) {
-                intent.putExtra("SEND_DATA", 1);
-            } else if (i == 2) {
-                intent.putExtra("SEND_DATA", 2);
-            } else if (i == 3) {
-                intent.putExtra("SEND_DATA", 3);
-            } else if (i == 4) {
-                intent.putExtra("SEND_DATA", 4);
-            } else if (i == 5) {
-                intent.putExtra("SEND_DATA", 5);
-            } else if (i == 6) {
-                intent.putExtra("SEND_DATA", 6);
-            } else if (i == 7) {
-                intent.putExtra("SEND_DATA", 7);
-            } else if (i == 8) {
-                intent.putExtra("SEND_DATA", 8);
-            } else if (i == 9) {
-                intent.putExtra("SEND_DATA", 9);
-            } else if (i == 10) {
-                intent.putExtra("SEND_DATA", 10);
-            } else if (i == 11) {
-                intent.putExtra("SEND_DATA", 11);
-            } else if (i == 12) {
-                intent.putExtra("SEND_DATA", 12);
-            } else if (i == 13) {
-                intent.putExtra("SEND_DATA", 13);
-            } else if (i == 14) {
-                intent.putExtra("SEND_DATA", 14);
-            } else if (i == 15) {
-                intent.putExtra("SEND_DATA", 15);
-            } else if (i == 16) {
-                intent.putExtra("SEND_DATA", 16);
-            } else if (i == 17) {
-                intent.putExtra("SEND_DATA", 17);
-            }
-        }
+        //カードの裏返し
+        View.OnClickListener event = new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+
+                if (v.getId() == R.id.card0) {
+                    ((ImageView) findViewById(R.id.card0)).setImageResource(R.drawable.uinna);
+                } else if (v.getId() == R.id.card1) {
+                    ((ImageView) findViewById(R.id.card1)).setImageResource(R.drawable.uinna);
+                } else if (v.getId() == R.id.card2) {
+                    ((ImageView) findViewById(R.id.card2)).setImageResource(R.drawable.uinna);
+                }
+            }
+        };
 
         //料理選択画面に戻る
         View.OnClickListener event2 = new View.OnClickListener() {
@@ -91,6 +68,11 @@ public class CardActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         };
+
+        findViewById(R.id.card0).setOnClickListener(event);
+        findViewById(R.id.card1).setOnClickListener(event);
+        findViewById(R.id.card2).setOnClickListener(event);
+
 
         findViewById(R.id.home).setOnClickListener(event2);
     }
