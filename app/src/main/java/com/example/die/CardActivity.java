@@ -20,10 +20,16 @@ import java.io.InputStreamReader;
 
 public class CardActivity extends AppCompatActivity {
 
+    int cardnum[] = new int[3];
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card);
+
+        cardnum[0] = R.id.card0;
+        cardnum[1] = R.id.card1;
+        cardnum[2] = R.id.card2;
 
         //Categoryからの値の受け取り
         Intent intent = getIntent();
@@ -49,12 +55,10 @@ public class CardActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (v.getId() == R.id.card0) {
-                    ((ImageView) findViewById(R.id.card0)).setImageResource(R.drawable.uinna);
-                } else if (v.getId() == R.id.card1) {
-                    ((ImageView) findViewById(R.id.card1)).setImageResource(R.drawable.uinna);
-                } else if (v.getId() == R.id.card2) {
-                    ((ImageView) findViewById(R.id.card2)).setImageResource(R.drawable.uinna);
+                for (int i = 0; i < 3; i++) {
+                    if (v.getId() == cardnum[i]) {
+                        ((ImageView) findViewById(cardnum[i])).setImageResource(getdataC);
+                    }
                 }
             }
         };

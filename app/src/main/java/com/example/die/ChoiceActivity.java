@@ -15,6 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 //text
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
@@ -71,7 +73,11 @@ public class ChoiceActivity extends AppCompatActivity {
             ing[i] = 8 * getdata + i;
         }
 
-        ingre = readFromFile(ing[],1);
+        try {
+            ingre = readFromFile(ing,1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         //これでingreに料理名が入っているはず。
 
 
@@ -318,7 +324,7 @@ public class ChoiceActivity extends AppCompatActivity {
         findViewById(R.id.home).setOnClickListener(event2);
     }
 
-    private String readFromFile(int[] ingre, int len) throws IOException {
+    private String readFromFile(int[] ingre, int len) throws IOException, FileNotFoundException {
         int count = 0;
 
         String result = "";
