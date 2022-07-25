@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class CategoryActivity extends AppCompatActivity {
@@ -26,7 +27,6 @@ public class CategoryActivity extends AppCompatActivity {
 
             //Mainから受け取った料理の番号
             Intent intent = getIntent();
-            int getdata =  intent.getIntExtra("SEND_DATA", 0);
 
             @Override
             public void onClick(View v) {
@@ -34,10 +34,13 @@ public class CategoryActivity extends AppCompatActivity {
                 //Cardに渡す値
                 for (int i = 1; i < 4; i++) {
                     if (v.getId() == R.id.changebutton1) {
+                        //おさえめ
                         intent.putExtra("SEND_DATACARD", 1);
                     } else if (v.getId() == R.id.changebutton2) {
+                        //やばい
                         intent.putExtra("SEND_DATACARD", 2);
                     } else if (v.getId() == R.id.changebutton3) {
+                        //やばすぎる
                         intent.putExtra("SEND_DATACARD", 3);
                     }
                 }

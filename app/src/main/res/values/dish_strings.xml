@@ -2,20 +2,20 @@
 <resources>
     <string name="dish_name0">チャーハン</string>
     <string name="dish_name1">カレー</string>
-    <string name="dish_name2">焼きそば</string>
-    <string name="dish_name3">牛丼</string>
-    <string name="dish_name4">肉じゃが</string>
-    <string name="dish_name5">麻婆豆腐</string>
-    <string name="dish_name6">グラタン</string>
-    <string name="dish_name7">味噌汁</string>
-    <string name="dish_name8">お好み焼き</string>
-    <string name="dish_name9">オムライス</string>
-    <string name="dish_name10">たこ焼き</string>
-    <string name="dish_name11">酢豚</string>
+    <string name="dish_name2">肉じゃが</string>
+    <string name="dish_name3">オムライス</string>
+    <string name="dish_name4">牛丼</string>
+    <string name="dish_name5">野菜炒め</string>
+    <string name="dish_name6">焼きそば</string>
+    <string name="dish_name7">お好み焼き</string>
+    <string name="dish_name8">豚汁</string>
+    <string name="dish_name9">グラタン</string>
+    <string name="dish_name10">シチュー</string>
+    <string name="dish_name11">麻婆豆腐</string>
     <string name="dish_name12">ポトフ</string>
-    <string name="dish_name13">野菜炒め</string>
-    <string name="dish_name14">豚汁</string>
-    <string name="dish_name15">サンドウィッチ</string>
-    <string name="dish_name16">ハンバーガー</string>
-    <string name="dish_name17">シチュー</string>
+    <string name="dish_name13">酢豚</string>
+    <string name="dish_name14">味噌汁</string>
+    <string name="dish_name15">ハンバーガー</string>
+    <string name="dish_name16">サンドイッチ</string>
+    <string name="dish_name17">たこ焼き</string>
 </resources>

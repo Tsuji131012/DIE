@@ -982,7 +982,7 @@
 
 
     <string name="ingredient_name450">・マカロニ</string>
-    <string name="ingredient_name451">・鶏もも肉</string>
+    <string name="ingredient_name451">・鶏肉</string>
     <string name="ingredient_name452">・エビ</string>
     <string name="ingredient_name453">・玉ねぎ</string>
     <string name="ingredient_name454">・マッシュルーム</string>
@@ -1036,7 +1036,7 @@
     <string name="ingredient_name499">・</string>
 
     <string name="image_name450">・makaroni</string>
-    <string name="image_name451">・niwatorimomoniku</string>
+    <string name="image_name451">・niwatoriniku</string>
     <string name="image_name452">・ebi</string>
     <string name="image_name453">・tamanegi</string>
     <string name="image_name454">・massyuru-mu</string>
@@ -1090,7 +1090,7 @@
     <string name="image_name499">・</string>
 
 
-    <string name="ingredient_name500">・鶏もも肉</string>
+    <string name="ingredient_name500">・鶏肉</string>
     <string name="ingredient_name501">・人参</string>
     <string name="ingredient_name502">・玉ねぎ</string>
     <string name="ingredient_name503">・じゃがいも</string>
@@ -1144,7 +1144,7 @@
     <string name="ingredient_name548">・</string>
     <string name="ingredient_name549">・</string>
 
-    <string name="image_name500">・niwatorimomoniku</string>
+    <string name="image_name500">・niwatoriniku</string>
     <string name="image_name501">・ninzin</string>
     <string name="image_name502">・tamanegi</string>
     <string name="image_name503">・zyagaimo</string>
@@ -1417,7 +1417,7 @@
     <string name="image_name649">・</string>
 
 
-    <string name="ingredient_name650">・豚肩ロース</string>
+    <string name="ingredient_name650">・豚</string>
     <string name="ingredient_name651">・人参</string>
     <string name="ingredient_name652">・ピーマン</string>
     <string name="ingredient_name653">・玉ねぎ</string>
@@ -1471,7 +1471,7 @@
     <string name="ingredient_name698">・</string>
     <string name="ingredient_name699">・</string>
 
-    <string name="image_name650">・butakataro-su</string>
+    <string name="image_name650">・buta</string>
     <string name="image_name651">・ninzin</string>
     <string name="image_name652">・pi-man</string>
     <string name="image_name653">・tamanegi</string>
@@ -1526,7 +1526,7 @@
     <string name="image_name699">・</string>
 
 
-    <string name="ingredient_name700">・味噌</string>
+    <string name="ingredient_name700">・赤味噌</string>
     <string name="ingredient_name701">・豆腐</string>
     <string name="ingredient_name702">・わかめ</string>
     <string name="ingredient_name703">・</string>
@@ -1537,7 +1537,7 @@
     <string name="ingredient_name708">・</string>
     <string name="ingredient_name709">・</string>
 
-    <string name="ingredient_name710">・赤味噌</string>
+    <string name="ingredient_name710">・白味噌</string>
     <string name="ingredient_name711">・しじみ</string>
     <string name="ingredient_name712">・油揚げ</string>
     <string name="ingredient_name713">・大根</string>
@@ -1580,7 +1580,7 @@
     <string name="ingredient_name748">・</string>
     <string name="ingredient_name749">・</string>
 
-    <string name="image_name700">・miso</string>
+    <string name="image_name700">・akamiso</string>
     <string name="image_name701">・touhu</string>
     <string name="image_name702">・wakame</string>
     <string name="image_name703">・</string>
@@ -1591,7 +1591,7 @@
     <string name="image_name708">・</string>
     <string name="image_name709">・</string>
 
-    <string name="image_name710">・akamiso</string>
+    <string name="image_name710">・siromiso</string>
     <string name="image_name711">・sizimi</string>
     <string name="image_name712">・aburaage</string>
     <string name="image_name713">・daikon</string>

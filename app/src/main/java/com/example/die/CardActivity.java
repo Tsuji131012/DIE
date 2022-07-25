@@ -7,9 +7,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
@@ -25,6 +27,7 @@ public class CardActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_card);
 
         cardnum[0] = R.id.card0;
@@ -35,10 +38,31 @@ public class CardActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int getdataC =  intent.getIntExtra("SEND_DATACARD", 0);
         int getdata = intent.getIntExtra("SEND_DATA", 0);
+        Public pl = (Public)getApplication();
+        int ingnum = pl.getnum();
+
+        LinearLayout linearLayout = findViewById(R.id.insert_layout);
+
+        switch (ingnum) {
+            case 3:
+                getLayoutInflater().inflate(R.layout.line3_layout, linearLayout);
+                break;
+            case 4:
+                getLayoutInflater().inflate(R.layout.line4_layout, linearLayout);
+                break;
+            case 5:
+                getLayoutInflater().inflate(R.layout.line5_layout, linearLayout);
+                break;
+            case 6:
+                getLayoutInflater().inflate(R.layout.line6_layout, linearLayout);
+                break;
+        }
+
 
         //受け取った値によってさまざま
         switch (getdataC) {
             case 1:
+
 
                 break;
             case 2:
@@ -54,7 +78,6 @@ public class CardActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-
                 for (int i = 0; i < 3; i++) {
                     if (v.getId() == cardnum[i]) {
                         ((ImageView) findViewById(cardnum[i])).setImageResource(R.drawable.aburaage);
@@ -80,38 +103,4 @@ public class CardActivity extends AppCompatActivity {
 
         findViewById(R.id.home).setOnClickListener(event2);
     }
-
-
-    //text実験
-    private String readFromFile(int[] ingre, int len) throws IOException {
-        int count = 0;
-
-        String result = "";
-        InputStream inputStream = openFileInput("読み込むファイル名.txt");
-
-        if (inputStream != null) {
-            InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
-            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-
-
-            String tempString = "";
-            StringBuilder stringBuilder = new StringBuilder();
-            StringBuilder stringBuilder2 = new StringBuilder();
-
-            while ((tempString = bufferedReader.readLine()) != null) {
-                for (int i = 0; i < len; i++) {
-                    if (count == ingre[i]) {
-                        stringBuilder.append(tempString);
-                    }
-                }
-                count++;
-                stringBuilder2.append(tempString);
-            }
-            inputStream.close();
-            result = stringBuilder.toString();
-        }
-        return result;
-    }
-
-
 }

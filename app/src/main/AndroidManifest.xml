@@ -3,6 +3,7 @@
     package="com.example.die">
 
     <application
+        android:name=".Public"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="DIE"
