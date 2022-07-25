@@ -58,17 +58,17 @@ public class ChoiceActivity extends AppCompatActivity {
 
         //料理選択画面から送られてきたボタンのデータを受け取る
         Intent intent = getIntent();
-        int getdata = intent.getIntExtra("SEND_DATA", 0);
 
         //受け取ったボタンより、文字を変える
         TextView dv = findViewById(R.id.dish_text);
         TextView iv = findViewById(R.id.ingredient_text);
 
         Public pl = (Public)getApplication();
+        int dinum = pl.getdinum();
 
-        switch (getdata) {
+        switch (dinum) {
             case 0:
-                pl.setnum(4);
+                pl.setingnum(4);
                 dish = getString(R.string.dish_name0);
                 for (int i = 0; i < 4; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
@@ -82,11 +82,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 1:
-                pl.setnum(4);
+                pl.setingnum(4);
                 dish = getString(R.string.dish_name1);
                 for (int i = 0; i < 4; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -96,11 +96,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 2:
-                pl.setnum(4);
+                pl.setingnum(4);
                 dish = getString(R.string.dish_name2);
                 for (int i = 0; i < 4; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -110,11 +110,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 3:
-                pl.setnum(3);
+                pl.setingnum(3);
                 dish = getString(R.string.dish_name3);
                 for (int i = 0; i < 3; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -124,11 +124,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 4:
-                pl.setnum(3);
+                pl.setingnum(3);
                 dish = getString(R.string.dish_name4);
                 for (int i = 0; i < 3; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -138,11 +138,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 5:
-                pl.setnum(5);
+                pl.setingnum(5);
                 dish = getString(R.string.dish_name5);
                 for (int i = 0; i < 5; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -152,11 +152,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 6:
-                pl.setnum(5);
+                pl.setingnum(5);
                 dish = getString(R.string.dish_name6);
                 for (int i = 0; i < 5; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -166,11 +166,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 7:
-                pl.setnum(4);
+                pl.setingnum(4);
                 dish = getString(R.string.dish_name7);
                 for (int i = 0; i < 4; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -180,11 +180,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 8:
-                pl.setnum(5);
+                pl.setingnum(5);
                 dish = getString(R.string.dish_name8);
                 for (int i = 0; i < 5; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -194,11 +194,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 9:
-                pl.setnum(5);
+                pl.setingnum(5);
                 dish = getString(R.string.dish_name9);
                 for (int i = 0; i < 5; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -208,11 +208,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 10:
-                pl.setnum(5);
+                pl.setingnum(5);
                 dish = getString(R.string.dish_name10);
                 for (int i = 0; i < 5; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -222,11 +222,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 11:
-                pl.setnum(3);
+                pl.setingnum(3);
                 dish = getString(R.string.dish_name11);
                 for (int i = 0; i < 3; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -236,11 +236,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 12:
-                pl.setnum(5);
+                pl.setingnum(5);
                 dish = getString(R.string.dish_name12);
                 for (int i = 0; i < 5; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -250,11 +250,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 13:
-                pl.setnum(4);
+                pl.setingnum(4);
                 dish = getString(R.string.dish_name13);
                 for (int i = 0; i < 4; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -264,11 +264,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 14:
-                pl.setnum(3);
+                pl.setingnum(3);
                 dish = getString(R.string.dish_name14);
                 for (int i = 0; i < 3; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -278,11 +278,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 15:
-                pl.setnum(6);
+                pl.setingnum(6);
                 dish = getString(R.string.dish_name15);
                 for (int i = 0; i < 6; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -292,11 +292,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 16:
-                pl.setnum(3);
+                pl.setingnum(3);
                 dish = getString(R.string.dish_name16);
                 for (int i = 0; i < 3; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);
@@ -306,11 +306,11 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
             case 17:
-                pl.setnum(3);
+                pl.setingnum(3);
                 dish = getString(R.string.dish_name17);
                 for (int i = 0; i < 3; i++) {
                     StringBuilder j = new StringBuilder("ingredient_name");
-                    j.append(getdata * 50 + i);
+                    j.append(dinum * 50 + i);
                     int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                     ingredient[i] = getString(viewId);
                     istr.append(ingredient[i]);

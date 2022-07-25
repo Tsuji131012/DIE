@@ -23,6 +23,7 @@ import java.io.InputStreamReader;
 public class CardActivity extends AppCompatActivity {
 
     int cardnum[] = new int[3];
+    int ingredientnum[] = new int[6];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +35,19 @@ public class CardActivity extends AppCompatActivity {
         cardnum[1] = R.id.card1;
         cardnum[2] = R.id.card2;
 
+        ingredientnum[0] =R.id.ingredient0;
+        ingredientnum[1] =R.id.ingredient1;
+        ingredientnum[2] =R.id.ingredient2;
+        ingredientnum[3] =R.id.ingredient3;
+        ingredientnum[4] =R.id.ingredient4;
+        ingredientnum[5] =R.id.ingredient5;
+
         //Categoryからの値の受け取り
         Intent intent = getIntent();
         int getdataC =  intent.getIntExtra("SEND_DATACARD", 0);
-        int getdata = intent.getIntExtra("SEND_DATA", 0);
         Public pl = (Public)getApplication();
-        int ingnum = pl.getnum();
+        int dinum = pl.getdinum();
+        int ingnum = pl.getingnum();
 
         LinearLayout linearLayout = findViewById(R.id.insert_layout);
 
@@ -58,11 +66,19 @@ public class CardActivity extends AppCompatActivity {
                 break;
         }
 
+        for (int i = 0; i < ingnum; i++) {
+            StringBuilder j = new StringBuilder("image_name");
+            j.append(dinum * 50 + i);
+            int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
+            String ing = getString(viewId);
+            viewId = getResources().getIdentifier(ing, "drawable", getPackageName());
+            ((ImageView) findViewById(ingredientnum[i])).setImageResource(viewId);
+        }
+
 
         //受け取った値によってさまざま
         switch (getdataC) {
             case 1:
-
 
                 break;
             case 2:
@@ -80,7 +96,7 @@ public class CardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 for (int i = 0; i < 3; i++) {
                     if (v.getId() == cardnum[i]) {
-                        ((ImageView) findViewById(cardnum[i])).setImageResource(R.drawable.aburaage);
+                        ((ImageView) findViewById(cardnum[i])).setImageResource(R.drawable.tamanegi);
                     }
                 }
             }

@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Public pl = (Public)getApplication();
+
         //料理・材料確認画面に遷移し、また押したボタンのデータを渡す
         View.OnClickListener event = new View.OnClickListener() {
 
@@ -50,41 +52,41 @@ public class MainActivity extends AppCompatActivity {
 
                 for (int i = 0; i < DISHIES1; i++) {
                     if (v.getId() == R.id.button0) {
-                        intent.putExtra("SEND_DATA", 0);
+                        pl.setdinum(0);
                     } else if (v.getId() == R.id.button1) {
-                        intent.putExtra("SEND_DATA", 1);
+                        pl.setdinum(1);
                     } else if (v.getId() == R.id.button2) {
-                        intent.putExtra("SEND_DATA", 2);
+                        pl.setdinum(2);
                     } else if (v.getId() == R.id.button3) {
-                        intent.putExtra("SEND_DATA", 3);
+                        pl.setdinum(3);
                     } else if (v.getId() == R.id.button4) {
-                        intent.putExtra("SEND_DATA", 4);
+                        pl.setdinum(4);
                     } else if (v.getId() == R.id.button5) {
-                        intent.putExtra("SEND_DATA", 5);
+                        pl.setdinum(5);
                     } else if (v.getId() == R.id.button6) {
-                        intent.putExtra("SEND_DATA", 6);
+                        pl.setdinum(6);
                     } else if (v.getId() == R.id.button7) {
-                        intent.putExtra("SEND_DATA", 7);
+                        pl.setdinum(7);
                     } else if (v.getId() == R.id.button8) {
-                        intent.putExtra("SEND_DATA", 8);
+                        pl.setdinum(8);
                     } else if (v.getId() == R.id.button9) {
-                        intent.putExtra("SEND_DATA", 9);
+                        pl.setdinum(9);
                     } else if (v.getId() == R.id.button10) {
-                        intent.putExtra("SEND_DATA", 10);
+                        pl.setdinum(10);
                     } else if (v.getId() == R.id.button11) {
-                        intent.putExtra("SEND_DATA", 11);
+                        pl.setdinum(11);
                     } else if (v.getId() == R.id.button12) {
-                        intent.putExtra("SEND_DATA", 12);
+                        pl.setdinum(12);
                     } else if (v.getId() == R.id.button13) {
-                        intent.putExtra("SEND_DATA", 13);
+                        pl.setdinum(13);
                     } else if (v.getId() == R.id.button14) {
-                        intent.putExtra("SEND_DATA", 14);
+                        pl.setdinum(14);
                     } else if (v.getId() == R.id.button15) {
-                        intent.putExtra("SEND_DATA", 15);
+                        pl.setdinum(15);
                     } else if (v.getId() == R.id.button16) {
-                        intent.putExtra("SEND_DATA", 16);
+                        pl.setdinum(16);
                     } else if (v.getId() == R.id.button17) {
-                        intent.putExtra("SEND_DATA", 17);
+                        pl.setdinum(17);
                     }
                 }
                 startActivity(intent);
