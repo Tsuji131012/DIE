@@ -18,6 +18,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Random;
 
 
 public class CardActivity extends AppCompatActivity {
@@ -48,6 +49,9 @@ public class CardActivity extends AppCompatActivity {
         Public pl = (Public)getApplication();
         int dinum = pl.getdinum();
         int ingnum = pl.getingnum();
+        int viewId;
+        int[] viewIdnum = new int[3];
+        String ing;
 
         LinearLayout linearLayout = findViewById(R.id.insert_layout);
 
@@ -69,9 +73,10 @@ public class CardActivity extends AppCompatActivity {
         for (int i = 0; i < ingnum; i++) {
             StringBuilder j = new StringBuilder("image_name");
             j.append(dinum * 50 + i);
-            int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
-            String ing = getString(viewId);
+            viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
+            ing = getString(viewId);
             viewId = getResources().getIdentifier(ing, "drawable", getPackageName());
+            viewIdnum[i] = viewId;
             ((ImageView) findViewById(ingredientnum[i])).setImageResource(viewId);
         }
 
@@ -79,13 +84,32 @@ public class CardActivity extends AppCompatActivity {
         //受け取った値によってさまざま
         switch (getdataC) {
             case 1:
+                for (int i = 0; i < 3; i++) {
+                    do {
+                        Random random = new Random();
+                        int r = random.nextInt(20);
+                        StringBuilder j = new StringBuilder("image_name");
+                        j.append(dinum * 50 + 10 + r);
+                        viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
+                        ing = getString(viewId);
+                    } while (ing.equals(""));
 
+                    viewId = getResources().getIdentifier(ing, "drawable", getPackageName());
+                }
                 break;
             case 2:
+                for (int i = 0; i < 3; i++) {
+                    Random random = new Random();
+                    int randomValue = random.nextInt(20);
 
+                }
                 break;
             case 3:
+                for (int i = 0; i < 3; i++) {
+                    Random random = new Random();
+                    int randomValue = random.nextInt(20);
 
+                }
                 break;
         }
 
@@ -96,7 +120,7 @@ public class CardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 for (int i = 0; i < 3; i++) {
                     if (v.getId() == cardnum[i]) {
-                        ((ImageView) findViewById(cardnum[i])).setImageResource(R.drawable.tamanegi);
+                        ((ImageView) findViewById(cardnum[i])).setImageResource(viewIdnum[i]);
                     }
                 }
             }

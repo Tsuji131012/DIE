@@ -67,14 +67,14 @@
 
     <string name="image_name10">ebi</string>
     <string name="image_name11">butaniku</string>
-    <string name="image_name12">ninzin</string>
-    <string name="image_name13">siitake</string>
-    <string name="image_name14">simezi</string>
+    <string name="image_name12">ninjin</string>
+    <string name="image_name13">shiitake</string>
+    <string name="image_name14">shimeji</string>
     <string name="image_name15">enoki</string>
     <string name="image_name16">sake</string>
     <string name="image_name17">nira</string>
-    <string name="image_name18">tirimenzyako</string>
-    <string name="image_name19">kimuti</string>
+    <string name="image_name18">chirimenjako</string>
+    <string name="image_name19">kimuchi</string>
     <string name="image_name20">ninniku</string>
     <string name="image_name21">edamame</string>
     <string name="image_name22"></string>
@@ -163,9 +163,9 @@
     <string name="ingredient_name98">・</string>
     <string name="ingredient_name99">・</string>
 
-    <string name="image_name50">zyagaimo</string>
+    <string name="image_name50">jyagaimo</string>
     <string name="image_name51">gyuuniku</string>
-    <string name="image_name52">ninzin</string>
+    <string name="image_name52">ninjin</string>
     <string name="image_name53">tamanegi</string>
     <string name="image_name54"></string>
     <string name="image_name55"></string>
@@ -175,12 +175,12 @@
     <string name="image_name59"></string>
 
     <string name="image_name60">toriniku</string>
-    <string name="image_name61">pi-man</string>
+    <string name="image_name61">piman</string>
     <string name="image_name62">butaniku</string>
     <string name="image_name63">nasu</string>
-    <string name="image_name64">ti-zu</string>
+    <string name="image_name64">chizu</string>
     <string name="image_name65">okura</string>
-    <string name="image_name66">be-kon</string>
+    <string name="image_name66">bekon</string>
     <string name="image_name67">hourensou</string>
     <string name="image_name68">gobou</string>
     <string name="image_name69">kabotya</string>
