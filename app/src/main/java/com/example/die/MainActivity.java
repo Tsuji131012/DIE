@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                         pl.setdinum(17);
                     }
                 }
+                pl.setflag(false);
                 startActivity(intent);
             }
         };

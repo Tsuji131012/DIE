@@ -25,6 +25,10 @@ public class CardActivity extends AppCompatActivity {
 
     int cardnum[] = new int[3];
     int ingredientnum[] = new int[6];
+    boolean swi = true;
+    boolean swi2 = true;
+    int[] choose = new int[3];
+    int mainch, viewId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,9 +53,9 @@ public class CardActivity extends AppCompatActivity {
         Public pl = (Public)getApplication();
         int dinum = pl.getdinum();
         int ingnum = pl.getingnum();
-        int viewId;
         int[] viewIdnum = new int[3];
         String ing;
+
 
         LinearLayout linearLayout = findViewById(R.id.insert_layout);
 
@@ -72,11 +76,10 @@ public class CardActivity extends AppCompatActivity {
 
         for (int i = 0; i < ingnum; i++) {
             StringBuilder j = new StringBuilder("image_name");
-            j.append(dinum * 50 + i);
+            j.append(pl.geting(i));
             viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
             ing = getString(viewId);
             viewId = getResources().getIdentifier(ing, "drawable", getPackageName());
-            viewIdnum[i] = viewId;
             ((ImageView) findViewById(ingredientnum[i])).setImageResource(viewId);
         }
 
@@ -90,11 +93,13 @@ public class CardActivity extends AppCompatActivity {
                         int r = random.nextInt(20);
                         StringBuilder j = new StringBuilder("image_name");
                         j.append(dinum * 50 + 10 + r);
+                        choose[i] = dinum * 50 + 10 + r;
                         viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
                         ing = getString(viewId);
                     } while (ing.equals(""));
 
                     viewId = getResources().getIdentifier(ing, "drawable", getPackageName());
+                    viewIdnum[i] = viewId;
                 }
                 break;
             case 2:
@@ -116,11 +121,14 @@ public class CardActivity extends AppCompatActivity {
         //カードの裏返し
         View.OnClickListener event = new View.OnClickListener() {
 
+
             @Override
             public void onClick(View v) {
                 for (int i = 0; i < 3; i++) {
-                    if (v.getId() == cardnum[i]) {
+                    if (v.getId() == cardnum[i] && swi) {
                         ((ImageView) findViewById(cardnum[i])).setImageResource(viewIdnum[i]);
+                        mainch = i;
+                        swi = false;
                     }
                 }
             }
@@ -136,9 +144,58 @@ public class CardActivity extends AppCompatActivity {
             }
         };
 
+        View.OnClickListener event3 = new View.OnClickListener() {
+
+
+            @Override
+            public void onClick(View v) {
+                if(swi == false) {
+                    for (int i = 0; i < 6; i++) {
+                        if (v.getId() == ingredientnum[i] && swi2) {
+                            ((ImageView) findViewById(ingredientnum[i])).setImageResource(viewIdnum[mainch]);
+
+                            StringBuilder j = new StringBuilder("image_name");
+                            j.append(pl.geting(i));
+                            viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
+                            viewId = getResources().getIdentifier(getString(viewId), "drawable", getPackageName());
+                            ((ImageView) findViewById(cardnum[mainch])).setImageResource(viewId);
+
+                            pl.seting(choose[mainch], i);
+                            swi2 = false;
+                        }
+                    }
+                    pl.setflag(true);
+                }
+            }
+        };
+
         findViewById(R.id.card0).setOnClickListener(event);
         findViewById(R.id.card1).setOnClickListener(event);
         findViewById(R.id.card2).setOnClickListener(event);
+
+        if (ingnum == 3) {
+            findViewById(ingredientnum[0]).setOnClickListener(event3);
+            findViewById(ingredientnum[1]).setOnClickListener(event3);
+            findViewById(ingredientnum[2]).setOnClickListener(event3);
+        } else if (ingnum == 4) {
+            findViewById(ingredientnum[0]).setOnClickListener(event3);
+            findViewById(ingredientnum[1]).setOnClickListener(event3);
+            findViewById(ingredientnum[2]).setOnClickListener(event3);
+            findViewById(ingredientnum[3]).setOnClickListener(event3);
+        } else if (ingnum == 5) {
+            findViewById(ingredientnum[0]).setOnClickListener(event3);
+            findViewById(ingredientnum[1]).setOnClickListener(event3);
+            findViewById(ingredientnum[2]).setOnClickListener(event3);
+            findViewById(ingredientnum[3]).setOnClickListener(event3);
+            findViewById(ingredientnum[4]).setOnClickListener(event3);
+        } else if (ingnum == 6) {
+            findViewById(ingredientnum[0]).setOnClickListener(event3);
+            findViewById(ingredientnum[1]).setOnClickListener(event3);
+            findViewById(ingredientnum[2]).setOnClickListener(event3);
+            findViewById(ingredientnum[3]).setOnClickListener(event3);
+            findViewById(ingredientnum[4]).setOnClickListener(event3);
+            findViewById(ingredientnum[5]).setOnClickListener(event3);
+        }
 
 
         findViewById(R.id.home).setOnClickListener(event2);
