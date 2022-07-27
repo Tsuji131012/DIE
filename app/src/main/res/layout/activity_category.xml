@@ -6,74 +6,91 @@
     android:layout_height="match_parent"
     tools:context=".CategoryActivity">
 
+    <View
+        android:id="@+id/line_horizontal_center"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:background="#222222"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
     <ImageView
         android:id="@+id/home"
         android:layout_width="94dp"
         android:layout_height="90dp"
-        android:background="@drawable/button_main"
+        android:background="@drawable/button_home"
+        android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.94"
+        app:layout_constraintVertical_bias="0.97"
         app:srcCompat="@drawable/fork_and_knife" />
 
     <Button
         android:id="@+id/changebutton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_main"
-        android:paddingLeft="35dp"
+        android:background="@drawable/button_osaeme"
+        android:paddingLeft="37dp"
         android:paddingTop="60dp"
-        android:paddingRight="35dp"
+        android:paddingRight="37dp"
         android:paddingBottom="60dp"
         android:text="おさえめ"
         android:textColor="#000000"
         android:textSize="20sp"
+        android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17000002" />
+        app:layout_constraintVertical_bias="0.13" />
 
     <Button
         android:id="@+id/changebutton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_main"
-        android:paddingLeft="45dp"
+        android:background="@drawable/button_yabai"
+        android:paddingLeft="47dp"
         android:paddingTop="60dp"
-        android:paddingRight="45dp"
+        android:paddingRight="47dp"
         android:paddingBottom="60dp"
         android:text="やばい"
         android:textColor="#000000"
         android:textSize="20sp"
+        android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
+        app:layout_constraintVertical_bias="0.55" />
 
     <Button
         android:id="@+id/changebutton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_main"
-        android:paddingLeft="20dp"
+        android:background="@drawable/button_yabasugiru"
+        android:paddingLeft="25dp"
         android:paddingTop="60dp"
-        android:paddingRight="20dp"
+        android:paddingRight="25dp"
         android:paddingBottom="60dp"
         android:text="やばすぎる"
         android:textColor="#020202"
         android:textSize="20sp"
+        android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
+        app:layout_constraintVertical_bias="0.55" />
 </androidx.constraintlayout.widget.ConstraintLayout>

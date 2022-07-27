@@ -6,22 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".ChoiceActivity">
 
+    <View
+        android:id="@+id/line_horizontal_center"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:background="#222222"
+        android:visibility="visible"
+        android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
     <ImageView
         android:id="@+id/home"
         android:layout_width="94dp"
         android:layout_height="90dp"
-        android:background="@drawable/button_main"
+        android:background="@drawable/button_home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/scrollView3"
-        app:layout_constraintVertical_bias="0.94"
+        app:layout_constraintVertical_bias="0.97"
         app:srcCompat="@drawable/fork_and_knife" />
 
     <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="0dp"
-        android:layout_height="450dp"
+        android:layout_height="528dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -41,11 +55,14 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/text_main"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:background="@drawable/text_dish"
                 android:text=""
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="48sp"
+                android:textSize="40sp"
+                android:elevation="10dp"
                 app:backgroundTint="@null" />
 
             <TextView
@@ -55,7 +72,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/text_main"
+                android:background="@drawable/text_ingredient"
                 android:paddingStart="70dp"
                 android:paddingTop="50dp"
                 android:paddingBottom="20dp"
@@ -63,6 +80,7 @@
                 android:textAlignment="viewStart"
                 android:textColor="#000000"
                 android:textSize="34sp"
+                android:elevation="10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -72,13 +90,15 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginRight="40dp"
-                android:background="@drawable/button_main"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/button_change"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
                 android:text="置き換え"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="34sp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
                 app:backgroundTint="@null" />
         </LinearLayout>
     </ScrollView>
