@@ -68,6 +68,36 @@ public class ChoiceActivity extends AppCompatActivity {
         int dinum = pl.getdinum();
         boolean swi = pl.getflag();
 
+
+
+        //ここから短縮版途中経過
+        StringBuilder jdish = new StringBuilder("dish_name");
+        jdish.append(dinum)
+        int viewIdish = getResources().getIdentifier(jdish.toString(), "string", getPackageName());
+
+        dish = getString(viewIdish);
+        int howmany = 0;
+        for (int i = 0; i < 10; i++) {
+            StringBuilder j = new StringBuilder("ingredient_name");
+            if (swi == false) {
+                pl.seting(dinum * 50 + i, i);
+            }
+            j.append(pl.geting(dinum * 50 + i));
+            int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
+            ingredient[i] = getString(viewId);
+
+            //これで必要な材料だけ表示できる
+            if (ingredient[i] == "・"){
+                pl.setting();
+                break;
+            }
+
+            istr.append(ingredient[i]);
+            istr.append("\n");
+        }
+        dv.setText(dish);
+        iv.setText(istr.toString());
+        /*
         switch (dinum) {
             case 0:
                 pl.setingnum(4);
@@ -376,6 +406,7 @@ public class ChoiceActivity extends AppCompatActivity {
                 iv.setText(istr.toString());
                 break;
         }
+         */
 
 
         findViewById(R.id.button).setOnClickListener(event);
