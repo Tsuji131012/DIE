@@ -110,16 +110,34 @@ public class CardActivity extends AppCompatActivity {
                 break;
             case 2:
                 for (int i = 0; i < 3; i++) {
-                    Random random = new Random();
-                    int randomValue = random.nextInt(20);
+                    do {
+                        Random random = new Random();
+                        int r = random.nextInt(10);
+                        StringBuilder j = new StringBuilder("image_name");
+                        j.append(dinum * 50 + 30 + r);
+                        choose[i] = dinum * 50 + 30 + r;
+                        viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
+                        ing = getString(viewId);
+                    } while (ing.equals(""));
 
+                    viewId = getResources().getIdentifier(ing, "drawable", getPackageName());
+                    viewIdnum[i] = viewId;
                 }
                 break;
             case 3:
                 for (int i = 0; i < 3; i++) {
-                    Random random = new Random();
-                    int randomValue = random.nextInt(20);
+                    do {
+                        Random random = new Random();
+                        int r = random.nextInt(10);
+                        StringBuilder j = new StringBuilder("image_name");
+                        j.append(dinum * 50 + 40 + r);
+                        choose[i] = dinum * 50 + 40 + r;
+                        viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
+                        ing = getString(viewId);
+                    } while (ing.equals(""));
 
+                    viewId = getResources().getIdentifier(ing, "drawable", getPackageName());
+                    viewIdnum[i] = viewId;
                 }
                 break;
         }

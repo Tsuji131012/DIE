@@ -72,7 +72,7 @@ public class ChoiceActivity extends AppCompatActivity {
 
         //ここから短縮版途中経過
         StringBuilder jdish = new StringBuilder("dish_name");
-        jdish.append(dinum)
+        jdish.append(dinum);
         int viewIdish = getResources().getIdentifier(jdish.toString(), "string", getPackageName());
 
         dish = getString(viewIdish);
@@ -82,13 +82,13 @@ public class ChoiceActivity extends AppCompatActivity {
             if (swi == false) {
                 pl.seting(dinum * 50 + i, i);
             }
-            j.append(pl.geting(dinum * 50 + i));
+            j.append(pl.geting(i));
             int viewId = getResources().getIdentifier(j.toString(), "string", getPackageName());
             ingredient[i] = getString(viewId);
 
             //これで必要な材料だけ表示できる
-            if (ingredient[i] == "・"){
-                pl.setting();
+            if (ingredient[i].equals("・")){
+                //pl.setting();
                 break;
             }
 
