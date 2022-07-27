@@ -66,7 +66,7 @@
     <string name="image_name9"></string>
 
     <string name="image_name10">ebi</string>
-    <string name="image_name11">butaniku</string>
+    <string name="image_name11">butanikuniku</string>
     <string name="image_name12">ninjin</string>
     <string name="image_name13">shiitake</string>
     <string name="image_name14">simeji</string>
@@ -88,7 +88,7 @@
 
     <string name="image_name30">tomato</string>
     <string name="image_name31">kabotya</string>
-    <string name="image_name32">satumaimo</string>
+    <string name="image_name32">satsumaimo</string>
     <string name="image_name33">satoimo</string>
     <string name="image_name34">nattou</string>
     <string name="image_name35">nasu</string>
@@ -101,9 +101,9 @@
     <string name="image_name41">momo</string>
     <string name="image_name42">ringo</string>
     <string name="image_name43">mikan</string>
-    <string name="image_name44">itigo</string>
+    <string name="image_name44">ichogo</string>
     <string name="image_name45">meron</string>
-    <string name="image_name46">masyumaro</string>
+    <string name="image_name46">mashumaro</string>
     <string name="image_name47"></string>
     <string name="image_name48"></string>
     <string name="image_name49"></string>
@@ -176,7 +176,7 @@
 
     <string name="image_name60">toriniku</string>
     <string name="image_name61">piman</string>
-    <string name="image_name62">butaniku</string>
+    <string name="image_name62">butanikuniku</string>
     <string name="image_name63">nasu</string>
     <string name="image_name64">chizu</string>
     <string name="image_name65">okura</string>
@@ -196,7 +196,7 @@
     <string name="image_name79"></string>
 
     <string name="image_name80">kyuuri</string>
-    <string name="image_name81">moyasi</string>
+    <string name="image_name81">moyashi</string>
     <string name="image_name82">retasu</string>
     <string name="image_name83">serori</string>
     <string name="image_name84">maguro</string>
@@ -210,8 +210,8 @@
     <string name="image_name91">ikura</string>
     <string name="image_name92">tyokore-to</string>
     <string name="image_name93">mikan</string>
-    <string name="image_name94">kukki-</string>
-    <string name="image_name95">masyumaro</string>
+    <string name="image_name94">kukki</string>
+    <string name="image_name95">mashumaro</string>
     <string name="image_name96"></string>
     <string name="image_name97"></string>
     <string name="image_name98"></string>
@@ -274,8 +274,8 @@
 
     <string name="image_name100">gyuuniku</string>
     <string name="image_name101">tamanegi</string>
-    <string name="image_name102">ninzin</string>
-    <string name="image_name103">zyagaimo</string>
+    <string name="image_name102">ninjin</string>
+    <string name="image_name103">jyagaimo</string>
     <string name="image_name104"></string>
     <string name="image_name105"></string>
     <string name="image_name106"></string>
@@ -285,9 +285,9 @@
 
     <string name="image_name110">sayaingen</string>
     <string name="image_name111">sirataki</string>
-    <string name="image_name112">butaniku</string>
+    <string name="image_name112">butanikuniku</string>
     <string name="image_name113">tomato</string>
-    <string name="image_name114">konati-zu</string>
+    <string name="image_name114">konachi-zu</string>
     <string name="image_name115">mentaiko</string>
     <string name="image_name116"></string>
     <string name="image_name117"></string>
@@ -305,11 +305,11 @@
     <string name="image_name129"></string>
 
     <string name="image_name130">ebi</string>
-    <string name="image_name131">siitake</string>
-    <string name="image_name132">ko-n</string>
+    <string name="image_name131">shiitake</string>
+    <string name="image_name132">kon</string>
     <string name="image_name133">tako</string>
-    <string name="image_name134">moti</string>
-    <string name="image_name135">kyabetu</string>
+    <string name="image_name134">mochi</string>
+    <string name="image_name135">kyabetsu</string>
     <string name="image_name136">makaroni</string>
     <string name="image_name137"></string>
     <string name="image_name138"></string>
@@ -320,7 +320,7 @@
     <string name="image_name142">nattou</string>
     <string name="image_name143">ikura</string>
     <string name="image_name144">maguro</string>
-    <string name="image_name145">kimuti</string>
+    <string name="image_name145">kimuchi</string>
     <string name="image_name146"></string>
     <string name="image_name147"></string>
     <string name="image_name148"></string>
@@ -392,12 +392,12 @@
     <string name="image_name158"></string>
     <string name="image_name159"></string>
 
-    <string name="image_name160">be-kon</string>
-    <string name="image_name161">guri-npi-su</string>
+    <string name="image_name160">bekon</string>
+    <string name="image_name161">gurinpisu</string>
     <string name="image_name162">hamu</string>
     <string name="image_name163">kanikama</string>
-    <string name="image_name164">massyuru-mu</string>
-    <string name="image_name165">ti-zu</string>
+    <string name="image_name164">masshurumu</string>
+    <string name="image_name165">chi-zu</string>
     <string name="image_name166"></string>
     <string name="image_name167"></string>
     <string name="image_name168"></string>
@@ -415,8 +415,8 @@
 
     <string name="image_name180">kabotya</string>
     <string name="image_name181">konnyaku</string>
-    <string name="image_name182">benisyouga</string>
-    <string name="image_name183">kimuti</string>
+    <string name="image_name182">benishouga</string>
+    <string name="image_name183">kimuchi</string>
     <string name="image_name184">saba</string>
     <string name="image_name185">nattou</string>
     <string name="image_name186"></string>
@@ -425,12 +425,12 @@
     <string name="image_name189"></string>
 
     <string name="image_name190">suika</string>
-    <string name="image_name191">itigo</string>
-    <string name="image_name192">moti</string>
+    <string name="image_name191">ichogo</string>
+    <string name="image_name192">mochi</string>
     <string name="image_name193">wakame</string>
     <string name="image_name194">banana</string>
     <string name="image_name195">painappuru</string>
-    <string name="image_name196">poteti</string>
+    <string name="image_name196">potechi</string>
     <string name="image_name197"></string>
     <string name="image_name198"></string>
     <string name="image_name199"></string>
@@ -492,7 +492,7 @@
 
     <string name="image_name200">gyuuniku</string>
     <string name="image_name201">tamanegi</string>
-    <string name="image_name202">benisyouga</string>
+    <string name="image_name202">benishouga</string>
     <string name="image_name203"></string>
     <string name="image_name204"></string>
     <string name="image_name205"></string>
@@ -501,16 +501,16 @@
     <string name="image_name208"></string>
     <string name="image_name209"></string>
 
-    <string name="image_name210">ti-zu</string>
+    <string name="image_name210">chi-zu</string>
     <string name="image_name211">mentaiko</string>
-    <string name="image_name212">daikonorosi</string>
+    <string name="image_name212">daikon</string>
     <string name="image_name213">tamago</string>
-    <string name="image_name214">kimuti</string>
-    <string name="image_name215">simezi</string>
-    <string name="image_name216">aonegi</string>
+    <string name="image_name214">kimuchi</string>
+    <string name="image_name215">simeji</string>
+    <string name="image_name216">negi</string>
     <string name="image_name217">tomato</string>
     <string name="image_name218">nasu</string>
-    <string name="image_name219">pi-man</string>
+    <string name="image_name219">piman</string>
     <string name="image_name220">itokonnyaku</string>
     <string name="image_name221"></string>
     <string name="image_name222"></string>
@@ -522,7 +522,7 @@
     <string name="image_name228"></string>
     <string name="image_name229"></string>
 
-    <string name="image_name230">go-ya</string>
+    <string name="image_name230">goya</string>
     <string name="image_name231">hotate</string>
     <string name="image_name232">kabotya</string>
     <string name="image_name233">sanma</string>
@@ -533,12 +533,12 @@
     <string name="image_name238"></string>
     <string name="image_name239"></string>
 
-    <string name="image_name240">itigo</string>
+    <string name="image_name240">ichogo</string>
     <string name="image_name241">banana</string>
     <string name="image_name242">tyokore-to</string>
-    <string name="image_name243">hatimitu</string>
+    <string name="image_name243">hachiitsu</string>
     <string name="image_name244">suika</string>
-    <string name="image_name245">kukki-</string>
+    <string name="image_name245">kukki</string>
     <string name="image_name246"></string>
     <string name="image_name247"></string>
     <string name="image_name248"></string>
@@ -599,28 +599,28 @@
     <string name="ingredient_name298">・</string>
     <string name="ingredient_name299">・</string>
 
-    <string name="image_name250">kyabetu</string>
+    <string name="image_name250">kyabetsu</string>
     <string name="image_name251">tamanegi</string>
-    <string name="image_name252">moyasi</string>
-    <string name="image_name253">pi-man</string>
-    <string name="image_name254">ninzin</string>
+    <string name="image_name252">moyashi</string>
+    <string name="image_name253">piman</string>
+    <string name="image_name254">ninjin</string>
     <string name="image_name255"></string>
     <string name="image_name256"></string>
     <string name="image_name257"></string>
     <string name="image_name258"></string>
     <string name="image_name259"></string>
 
-    <string name="image_name260">simezi</string>
+    <string name="image_name260">simeji</string>
     <string name="image_name261">hakusai</string>
-    <string name="image_name262">tingensai</string>
-    <string name="image_name263">siitake</string>
+    <string name="image_name262">chingensai</string>
+    <string name="image_name263">shiitake</string>
     <string name="image_name264">maitake</string>
     <string name="image_name265">kabotya</string>
-    <string name="image_name266">butabara</string>
+    <string name="image_name266">butanikubara</string>
     <string name="image_name267">nira</string>
     <string name="image_name268">kikurage</string>
-    <string name="image_name269">usikarubi</string>
-    <string name="image_name270">niwatorimomo</string>
+    <string name="image_name269">gyuukarubi</string>
+    <string name="image_name270">toriniku</string>
     <string name="image_name271">sayaendou</string>
     <string name="image_name272">tamago</string>
     <string name="image_name273"></string>
@@ -631,9 +631,9 @@
     <string name="image_name278"></string>
     <string name="image_name279"></string>
 
-    <string name="image_name280">ti-zu</string>
-    <string name="image_name281">ityou</string>
-    <string name="image_name282">gyuusuzi</string>
+    <string name="image_name280">chi-zu</string>
+    <string name="image_name281">ginnan</string>
+    <string name="image_name282">gyuusuji</string>
     <string name="image_name283">tomato</string>
     <string name="image_name284">kyuuri</string>
     <string name="image_name285">satoimo</string>
@@ -642,11 +642,11 @@
     <string name="image_name288"></string>
     <string name="image_name289"></string>
 
-    <string name="image_name290">hatimitu</string>
+    <string name="image_name290">hachiitsu</string>
     <string name="image_name291">momo</string>
     <string name="image_name292">ringo</string>
-    <string name="image_name293">kukki-</string>
-    <string name="image_name294">masyumaro</string>
+    <string name="image_name293">kukki</string>
+    <string name="image_name294">mashumaro</string>
     <string name="image_name295">tyokore-to</string>
     <string name="image_name296">ringo</string>
     <string name="image_name297"></string>
@@ -708,11 +708,11 @@
     <string name="ingredient_name348">・</string>
     <string name="ingredient_name349">・</string>
 
-    <string name="image_name300">ninzin</string>
+    <string name="image_name300">ninjin</string>
     <string name="image_name301">tamanegi</string>
-    <string name="image_name302">butaniku</string>
-    <string name="image_name303">kyabetu</string>
-    <string name="image_name304">moyasi</string>
+    <string name="image_name302">butanikuniku</string>
+    <string name="image_name303">kyabetsu</string>
+    <string name="image_name304">moyashi</string>
     <string name="image_name305"></string>
     <string name="image_name306"></string>
     <string name="image_name307"></string>
@@ -722,15 +722,15 @@
     <string name="image_name310">nira</string>
     <string name="image_name311">ninniku</string>
     <string name="image_name312">tamago</string>
-    <string name="image_name313">pi-man</string>
+    <string name="image_name313">piman</string>
     <string name="image_name314">ika</string>
-    <string name="image_name315">uinna-</string>
-    <string name="image_name316">be-kon</string>
-    <string name="image_name317">ti-zu</string>
+    <string name="image_name315">uinna</string>
+    <string name="image_name316">bekon</string>
+    <string name="image_name317">chi-zu</string>
     <string name="image_name318">asari</string>
     <string name="image_name319">nasu</string>
     <string name="image_name320">ebi</string>
-    <string name="image_name321">go-ya</string>
+    <string name="image_name321">goya</string>
     <string name="image_name322"></string>
     <string name="image_name323"></string>
     <string name="image_name324"></string>
@@ -741,22 +741,22 @@
     <string name="image_name329"></string>
 
     <string name="image_name330">tomato</string>
-    <string name="image_name331">moti</string>
+    <string name="image_name331">mochi</string>
     <string name="image_name332">maguro</string>
     <string name="image_name333">saba</string>
-    <string name="image_name334">satumaimo</string>
+    <string name="image_name334">satsumaimo</string>
     <string name="image_name335">kabotya</string>
-    <string name="image_name336">ti-zu</string>
+    <string name="image_name336">chi-zu</string>
     <string name="image_name337"></string>
     <string name="image_name338"></string>
     <string name="image_name339"></string>
 
-    <string name="image_name340">kukki-</string>
+    <string name="image_name340">kukki</string>
     <string name="image_name341">banana</string>
     <string name="image_name342">nattou</string>
     <string name="image_name343">momo</string>
-    <string name="image_name344">yo-guruto</string>
-    <string name="image_name345">kuri-mu</string>
+    <string name="image_name344">yoguruto</string>
+    <string name="image_name345">hoippukurimu</string>
     <string name="image_name346"></string>
     <string name="image_name347"></string>
     <string name="image_name348"></string>
@@ -817,10 +817,10 @@
     <string name="ingredient_name398">・</string>
     <string name="ingredient_name399">・</string>
 
-    <string name="image_name350">kyabetu</string>
+    <string name="image_name350">kyabetsu</string>
     <string name="image_name351">ika</string>
     <string name="image_name352">negi</string>
-    <string name="image_name353">butaniku</string>
+    <string name="image_name353">butanikuniku</string>
     <string name="image_name354"></string>
     <string name="image_name355"></string>
     <string name="image_name356"></string>
@@ -829,18 +829,18 @@
     <string name="image_name359"></string>
 
     <string name="image_name360">nagaimo</string>
-    <string name="image_name361">ti-zu</string>
+    <string name="image_name361">chi-zu</string>
     <string name="image_name362">ebi</string>
-    <string name="image_name363">zyagaimo</string>
-    <string name="image_name364">ko-n</string>
-    <string name="image_name365">moyasi</string>
-    <string name="image_name366">gyuusuzi</string>
+    <string name="image_name363">jyagaimo</string>
+    <string name="image_name364">kon</string>
+    <string name="image_name365">moyashi</string>
+    <string name="image_name366">gyuusuji</string>
     <string name="image_name367">mentaiko</string>
-    <string name="image_name368">moti</string>
+    <string name="image_name368">mochi</string>
     <string name="image_name369">tuna</string>
     <string name="image_name370">konnyaku</string>
     <string name="image_name371">hotate</string>
-    <string name="image_name372">burokkori-</string>
+    <string name="image_name372">burokkori</string>
     <string name="image_name373"></string>
     <string name="image_name374"></string>
     <string name="image_name375"></string>
@@ -926,9 +926,9 @@
     <string name="ingredient_name448">・</string>
     <string name="ingredient_name449">・</string>
 
-    <string name="image_name400">butaniku</string>
+    <string name="image_name400">butanikuniku</string>
     <string name="image_name401">gobou</string>
-    <string name="image_name402">ninzin</string>
+    <string name="image_name402">ninjin</string>
     <string name="image_name403">negi</string>
     <string name="image_name404">konnyaku</string>
     <string name="image_name405"></string>
@@ -937,18 +937,18 @@
     <string name="image_name408"></string>
     <string name="image_name409"></string>
 
-    <string name="image_name410">moti</string>
-    <string name="image_name411">ko-n</string>
-    <string name="image_name412">simezi</string>
+    <string name="image_name410">mochi</string>
+    <string name="image_name411">kon</string>
+    <string name="image_name412">simeji</string>
     <string name="image_name413">nasu</string>
     <string name="image_name414">tomato</string>
-    <string name="image_name415">zukki-ni</string>
+    <string name="image_name415">zukkini</string>
     <string name="image_name416">kyuuri</string>
     <string name="image_name417">nattou</string>
     <string name="image_name418">asari</string>
-    <string name="image_name419">kimuti</string>
-    <string name="image_name420">moyasi</string>
-    <string name="image_name421">kyabetu</string>
+    <string name="image_name419">kimuchi</string>
+    <string name="image_name420">moyashi</string>
+    <string name="image_name421">kyabetsu</string>
     <string name="image_name422">endoumame</string>
     <string name="image_name423"></string>
     <string name="image_name424"></string>
@@ -1036,17 +1036,17 @@
     <string name="ingredient_name499">・</string>
 
     <string name="image_name450">makaroni</string>
-    <string name="image_name451">niwatoriniku</string>
+    <string name="image_name451">toriniku</string>
     <string name="image_name452">ebi</string>
     <string name="image_name453">tamanegi</string>
-    <string name="image_name454">massyuru-mu</string>
+    <string name="image_name454">masshurumu</string>
     <string name="image_name455"></string>
     <string name="image_name456"></string>
     <string name="image_name457"></string>
     <string name="image_name458"></string>
     <string name="image_name459"></string>
 
-    <string name="image_name460">sabakan</string>
+    <string name="image_name460">saba</string>
     <string name="image_name461">hotate</string>
     <string name="image_name462">hourensou</string>
     <string name="image_name463">hamu</string>
@@ -1055,8 +1055,8 @@
     <string name="image_name466">kabotya</string>
     <string name="image_name467">hakusai</string>
     <string name="image_name468">banana</string>
-    <string name="image_name469">pi-man</string>
-    <string name="image_name470">tunakan</string>
+    <string name="image_name469">piman</string>
+    <string name="image_name470">tuna</string>
     <string name="image_name471">gobou</string>
     <string name="image_name472">momo</string>
     <string name="image_name473">yudetamago</string>
@@ -1144,25 +1144,25 @@
     <string name="ingredient_name548">・</string>
     <string name="ingredient_name549">・</string>
 
-    <string name="image_name500">niwatoriniku</string>
-    <string name="image_name501">ninzin</string>
+    <string name="image_name500">toriniku</string>
+    <string name="image_name501">ninjin</string>
     <string name="image_name502">tamanegi</string>
-    <string name="image_name503">zyagaimo</string>
-    <string name="image_name504">massyuru-mu</string>
+    <string name="image_name503">jyagaimo</string>
+    <string name="image_name504">masshurumu</string>
     <string name="image_name505"></string>
     <string name="image_name506"></string>
     <string name="image_name507"></string>
     <string name="image_name508"></string>
     <string name="image_name509"></string>
 
-    <string name="image_name510">burokkori-</string>
-    <string name="image_name511">satumaimo</string>
+    <string name="image_name510">burokkori</string>
+    <string name="image_name511">satsumaimo</string>
     <string name="image_name512">tomato</string>
     <string name="image_name513">enoki</string>
-    <string name="image_name514">yakitorikan</string>
+    <string name="image_name514">yakitori</string>
     <string name="image_name515">satoimo</string>
-    <string name="image_name516">gyuusuzi</string>
-    <string name="image_name517">be-kon</string>
+    <string name="image_name516">gyuusuji</string>
+    <string name="image_name517">bekon</string>
     <string name="image_name518">serori</string>
     <string name="image_name519">renkon</string>
     <string name="image_name520">edamame</string>
@@ -1266,14 +1266,14 @@
 
     <string name="image_name560">harusame</string>
     <string name="image_name561">nasu</string>
-    <string name="image_name562">komatuna</string>
+    <string name="image_name562">komatsuna</string>
     <string name="image_name563">takenoko</string>
     <string name="image_name564">tomato</string>
     <string name="image_name565">tara</string>
     <string name="image_name566">tarako</string>
     <string name="image_name567">okura</string>
-    <string name="image_name568">siitake</string>
-    <string name="image_name569">sabakan</string>
+    <string name="image_name568">shiitake</string>
+    <string name="image_name569">saba</string>
     <string name="image_name570">tamago</string>
     <string name="image_name571"></string>
     <string name="image_name572"></string>
@@ -1362,10 +1362,10 @@
     <string name="ingredient_name648">・</string>
     <string name="ingredient_name649">・</string>
 
-    <string name="image_name600">so-se-zi</string>
-    <string name="image_name601">kyabetu</string>
-    <string name="image_name602">zyagaimo</string>
-    <string name="image_name603">ninzin</string>
+    <string name="image_name600">uinna</string>
+    <string name="image_name601">kyabetsu</string>
+    <string name="image_name602">jyagaimo</string>
+    <string name="image_name603">ninjin</string>
     <string name="image_name604">tamanegi</string>
     <string name="image_name605"></string>
     <string name="image_name606"></string>
@@ -1373,7 +1373,7 @@
     <string name="image_name608"></string>
     <string name="image_name609"></string>
 
-    <string name="image_name610">simezi</string>
+    <string name="image_name610">simeji</string>
     <string name="image_name611">nanohana</string>
     <string name="image_name612">tamago</string>
     <string name="image_name613">ringo</string>
@@ -1381,9 +1381,9 @@
     <string name="image_name615">ninniku</string>
     <string name="image_name616">satoimo</string>
     <string name="image_name617">negi</string>
-    <string name="image_name618">ti-zu</string>
+    <string name="image_name618">chi-zu</string>
     <string name="image_name619">atuage</string>
-    <string name="image_name620">moti</string>
+    <string name="image_name620">mochi</string>
     <string name="image_name621">sirataki</string>
     <string name="image_name622">kabu</string>
     <string name="image_name623">serori</string>
@@ -1471,9 +1471,9 @@
     <string name="ingredient_name698">・</string>
     <string name="ingredient_name699">・</string>
 
-    <string name="image_name650">buta</string>
-    <string name="image_name651">ninzin</string>
-    <string name="image_name652">pi-man</string>
+    <string name="image_name650">butaniku</string>
+    <string name="image_name651">ninjin</string>
+    <string name="image_name652">piman</string>
     <string name="image_name653">tamanegi</string>
     <string name="image_name654"></string>
     <string name="image_name655"></string>
@@ -1484,19 +1484,19 @@
 
     <string name="image_name660">takenoko</string>
     <string name="image_name661">painappuru</string>
-    <string name="image_name662">siitake</string>
+    <string name="image_name662">shiitake</string>
     <string name="image_name663">sanma</string>
-    <string name="image_name664">moyasi</string>
+    <string name="image_name664">moyashi</string>
     <string name="image_name665">asupara</string>
     <string name="image_name666">tomato</string>
     <string name="image_name667">nasu</string>
-    <string name="image_name668">ityou</string>
+    <string name="image_name668">ginnan</string>
     <string name="image_name669">daikon</string>
     <string name="image_name670">maguro</string>
-    <string name="image_name671">massyuru-mu</string>
+    <string name="image_name671">masshurumu</string>
     <string name="image_name672">kikurage</string>
-    <string name="image_name673">satumaimo</string>
-    <string name="image_name674">syuumai</string>
+    <string name="image_name673">satsumaimo</string>
+    <string name="image_name674">syumai</string>
     <string name="image_name675">kabotya</string>
     <string name="image_name676"></string>
     <string name="image_name677"></string>
@@ -1591,8 +1591,8 @@
     <string name="image_name708"></string>
     <string name="image_name709"></string>
 
-    <string name="image_name710">siromiso</string>
-    <string name="image_name711">sizimi</string>
+    <string name="image_name710">shiromiso</string>
+    <string name="image_name711">shijimi</string>
     <string name="image_name712">aburaage</string>
     <string name="image_name713">daikon</string>
     <string name="image_name714">gobou</string>
@@ -1649,7 +1649,7 @@
     <string name="ingredient_name760">・揚げ物</string>
     <string name="ingredient_name761">・肉</string>
     <string name="ingredient_name762">・チーズ</string>
-    <string name="ingredient_name763">・ソース</string>
+    <string name="ingredient_name763">・</string>
     <string name="ingredient_name764">・</string>
     <string name="ingredient_name765">・</string>
     <string name="ingredient_name766">・</string>
@@ -1690,7 +1690,7 @@
     <string name="ingredient_name799">・</string>
 
     <string name="image_name750">banzu</string>
-    <string name="image_name751">pathi</string>
+    <string name="image_name751">hikiniku</string>
     <string name="image_name752">pikurusu</string>
     <string name="image_name753">tamanegi</string>
     <string name="image_name754">retasu</string>
@@ -1701,9 +1701,9 @@
     <string name="image_name759"></string>
 
     <string name="image_name760">agemono</string>
-    <string name="image_name761">niku</string>
-    <string name="image_name762">ti-zu</string>
-    <string name="image_name763">so-su</string>
+    <string name="image_name761">toriniku</string>
+    <string name="image_name762">chi-zu</string>
+    <string name="image_name763"></string>
     <string name="image_name764"></string>
     <string name="image_name765"></string>
     <string name="image_name766"></string>
@@ -1809,12 +1809,12 @@
     <string name="image_name808"></string>
     <string name="image_name809"></string>
 
-    <string name="image_name810">katu</string>
-    <string name="image_name811">ti-zu</string>
-    <string name="image_name812">be-kon</string>
+    <string name="image_name810">katsu</string>
+    <string name="image_name811">chi-zu</string>
+    <string name="image_name812">bekon</string>
     <string name="image_name813">ketyappu</string>
-    <string name="image_name814">kyabetu</string>
-    <string name="image_name815">kuri-mu</string>
+    <string name="image_name814">kyabetsu</string>
+    <string name="image_name815">hoippukurimu</string>
     <string name="image_name816">banana</string>
     <string name="image_name817">kyuuri</string>
     <string name="image_name818"></string>
@@ -1909,7 +1909,7 @@
 
     <string name="image_name850">tako</string>
     <string name="image_name851">negi</string>
-    <string name="image_name852">mayone-zu</string>
+    <string name="image_name852">mayonezu</string>
     <string name="image_name853"></string>
     <string name="image_name854"></string>
     <string name="image_name855"></string>
