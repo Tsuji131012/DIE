@@ -1,17 +1,22 @@
 package com.example.die;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
@@ -56,7 +61,7 @@ public class CardActivity extends AppCompatActivity {
         int[] viewIdnum = new int[3];
         String ing;
 
-
+        //材料の個数判断と表示
         LinearLayout linearLayout = findViewById(R.id.insert_layout);
 
         switch (ingnum) {
@@ -74,6 +79,7 @@ public class CardActivity extends AppCompatActivity {
                 break;
         }
 
+        //材料のイラスト貼り付け
         for (int i = 0; i < ingnum; i++) {
             StringBuilder j = new StringBuilder("image_name");
             j.append(pl.geting(i));
@@ -84,7 +90,7 @@ public class CardActivity extends AppCompatActivity {
         }
 
 
-        //受け取った値によってさまざま
+        //置き換える材料の貼り付け
         switch (getdataC) {
             case 1:
                 for (int i = 0; i < 3; i++) {
@@ -144,14 +150,15 @@ public class CardActivity extends AppCompatActivity {
             }
         };
 
+        //材料を置き換える
         View.OnClickListener event3 = new View.OnClickListener() {
 
 
             @Override
             public void onClick(View v) {
-                if(swi == false) {
+                if(swi == false && swi2) {
                     for (int i = 0; i < 6; i++) {
-                        if (v.getId() == ingredientnum[i] && swi2) {
+                        if (v.getId() == ingredientnum[i]) {
                             ((ImageView) findViewById(ingredientnum[i])).setImageResource(viewIdnum[mainch]);
 
                             StringBuilder j = new StringBuilder("image_name");
@@ -165,6 +172,49 @@ public class CardActivity extends AppCompatActivity {
                         }
                     }
                     pl.setflag(true);
+
+                    PopupWindow mPopupWindow = new PopupWindow(CardActivity.this);
+
+                    // レイアウト設定
+                    View popupView = getLayoutInflater().inflate(R.layout.popup, null);
+                    popupView.findViewById(R.id.out_button).setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(getApplication(), ChoiceActivity.class);
+                            startActivity(intent);
+                            if (mPopupWindow.isShowing()) {
+                                mPopupWindow.dismiss();
+                            }
+                        }
+                    });
+
+                    popupView.findViewById(R.id.continue_button).setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(getApplication(), CategoryActivity.class);
+                            startActivity(intent);
+                            if (mPopupWindow.isShowing()) {
+                                mPopupWindow.dismiss();
+                            }
+                        }
+                    });
+                    mPopupWindow.setContentView(popupView);
+
+                    // 背景設定
+                    mPopupWindow.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_main, null));
+
+                    // タップ時に他のViewでキャッチされないための設定
+                    mPopupWindow.setOutsideTouchable(false);
+                    mPopupWindow.setFocusable(false);
+
+                    // 表示サイズの設定 今回は幅300dp
+                    float width = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 350, getResources().getDisplayMetrics());
+                    float height = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 380, getResources().getDisplayMetrics());
+                    mPopupWindow.setWidth((int) width);
+                    mPopupWindow.setHeight((int) height);
+
+                    // 画面中央に表示
+                    mPopupWindow.showAtLocation(findViewById(R.id.card0), Gravity.CENTER, 0, 0);
                 }
             }
         };

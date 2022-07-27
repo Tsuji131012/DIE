@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="まだ置き換えますか？"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_main"
+        android:backgroundTint="@null"
+        android:text="まだする"
+        android:textAlignment="center"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_main"
+        android:backgroundTint="@null"
+        android:backgroundTintMode="add"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="終わる"
+        android:textAlignment="center"
+        android:textSize="32sp" />
+
+</LinearLayout>
