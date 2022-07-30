@@ -1215,12 +1215,12 @@
     <string name="ingredient_name562">・小松菜</string>
     <string name="ingredient_name563">・タケノコ</string>
     <string name="ingredient_name564">・トマト</string>
-    <string name="ingredient_name565">・鱈</string>
-    <string name="ingredient_name566">・たらこ</string>
-    <string name="ingredient_name567">・オクラ</string>
-    <string name="ingredient_name568">・しいたけ</string>
-    <string name="ingredient_name569">・サバ缶</string>
-    <string name="ingredient_name570">・たまご</string>
+    <string name="ingredient_name565">・たらこ</string>
+    <string name="ingredient_name566">・オクラ</string>
+    <string name="ingredient_name567">・しいたけ</string>
+    <string name="ingredient_name568">・サバ</string>
+    <string name="ingredient_name569">・たまご</string>
+    <string name="ingredient_name570">・</string>
     <string name="ingredient_name571">・</string>
     <string name="ingredient_name572">・</string>
     <string name="ingredient_name573">・</string>
@@ -1646,10 +1646,10 @@
     <string name="ingredient_name758">・</string>
     <string name="ingredient_name759">・</string>
 
-    <string name="ingredient_name760">・揚げ物</string>
-    <string name="ingredient_name761">・肉</string>
-    <string name="ingredient_name762">・チーズ</string>
-    <string name="ingredient_name763">・</string>
+    <string name="ingredient_name760">・鶏肉</string>
+    <string name="ingredient_name761">・チーズ</string>
+    <string name="ingredient_name762">・エビ</string>
+    <string name="ingredient_name763">・カツ</string>
     <string name="ingredient_name764">・</string>
     <string name="ingredient_name765">・</string>
     <string name="ingredient_name766">・</string>
@@ -1763,8 +1763,8 @@
     <string name="ingredient_name815">・クリーム</string>
     <string name="ingredient_name816">・バナナ</string>
     <string name="ingredient_name817">・キュウリ</string>
-    <string name="ingredient_name818">・</string>
-    <string name="ingredient_name819">・</string>
+    <string name="ingredient_name818">・ミカン</string>
+    <string name="ingredient_name819">・キュウイ</string>
     <string name="ingredient_name820">・</string>
     <string name="ingredient_name821">・</string>
     <string name="ingredient_name822">・</string>
@@ -1864,14 +1864,14 @@
     <string name="ingredient_name858">・</string>
     <string name="ingredient_name859">・</string>
 
-    <string name="ingredient_name860">・</string>
-    <string name="ingredient_name861">・</string>
-    <string name="ingredient_name862">・</string>
-    <string name="ingredient_name863">・</string>
-    <string name="ingredient_name864">・</string>
-    <string name="ingredient_name865">・</string>
-    <string name="ingredient_name866">・</string>
-    <string name="ingredient_name867">・</string>
+    <string name="ingredient_name860">・いか</string>
+    <string name="ingredient_name861">・ねぎ</string>
+    <string name="ingredient_name862">・ケチャップ</string>
+    <string name="ingredient_name863">・チーズ</string>
+    <string name="ingredient_name864">・ウインナー</string>
+    <string name="ingredient_name865">・餅</string>
+    <string name="ingredient_name866">・明太子</string>
+    <string name="ingredient_name867">・からし</string>
     <string name="ingredient_name868">・</string>
     <string name="ingredient_name869">・</string>
     <string name="ingredient_name870">・</string>
