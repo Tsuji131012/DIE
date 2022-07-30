@@ -1,27 +1,12 @@
 package com.example.die;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-
-//text
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
 
 
 
@@ -39,7 +24,7 @@ public class ChoiceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_choice);
 
         //カテゴリー選択画面に遷移する
-        View.OnClickListener event = new View.OnClickListener() {
+        View.OnClickListener move = new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -49,7 +34,7 @@ public class ChoiceActivity extends AppCompatActivity {
         };
 
         //料理選択画面に戻る
-        View.OnClickListener event2 = new View.OnClickListener() {
+        View.OnClickListener home = new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -76,7 +61,7 @@ public class ChoiceActivity extends AppCompatActivity {
         jdish.append(dinum);
         int viewIdish = getResources().getIdentifier(jdish.toString(), "string", getPackageName());
 
-        if (swi == false) {
+        if (!swi) {
             dish = getString(viewIdish);
         } else {
             dish = "〇 " + getString(viewIdish);
@@ -84,7 +69,7 @@ public class ChoiceActivity extends AppCompatActivity {
 
         for (int i = 0; i < 10; i++) {
             StringBuilder j = new StringBuilder("ingredient_name");
-            if (swi == false) {
+            if (!swi) {
                 pl.seting(dinum * 50 + i, i);
             }
             j.append(pl.geting(i));
@@ -104,8 +89,8 @@ public class ChoiceActivity extends AppCompatActivity {
         dv.setText(dish);
         iv.setText(istr.toString());
 
-        findViewById(R.id.button).setOnClickListener(event);
+        findViewById(R.id.button).setOnClickListener(move);
 
-        findViewById(R.id.home).setOnClickListener(event2);
+        findViewById(R.id.home).setOnClickListener(home);
     }
 }

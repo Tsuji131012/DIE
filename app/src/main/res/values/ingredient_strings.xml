@@ -101,7 +101,7 @@
     <string name="image_name41">momo</string>
     <string name="image_name42">ringo</string>
     <string name="image_name43">mikan</string>
-    <string name="image_name44">ichogo</string>
+    <string name="image_name44">ichigo</string>
     <string name="image_name45">meron</string>
     <string name="image_name46">mashumaro</string>
     <string name="image_name47"></string>
@@ -208,7 +208,7 @@
 
     <string name="image_name90">suika</string>
     <string name="image_name91">ikura</string>
-    <string name="image_name92">tyokore-to</string>
+    <string name="image_name92">tyokoreto</string>
     <string name="image_name93">mikan</string>
     <string name="image_name94">kukki</string>
     <string name="image_name95">mashumaro</string>
@@ -283,11 +283,11 @@
     <string name="image_name108"></string>
     <string name="image_name109"></string>
 
-    <string name="image_name110">sayaingen</string>
-    <string name="image_name111">sirataki</string>
+    <string name="image_name110">sayaendou</string>
+    <string name="image_name111">shirataki</string>
     <string name="image_name112">butaniku</string>
     <string name="image_name113">tomato</string>
-    <string name="image_name114">konachi-zu</string>
+    <string name="image_name114">chizu</string>
     <string name="image_name115">mentaiko</string>
     <string name="image_name116"></string>
     <string name="image_name117"></string>
@@ -397,7 +397,7 @@
     <string name="image_name162">hamu</string>
     <string name="image_name163">kanikama</string>
     <string name="image_name164">masshurumu</string>
-    <string name="image_name165">chi-zu</string>
+    <string name="image_name165">chizu</string>
     <string name="image_name166"></string>
     <string name="image_name167"></string>
     <string name="image_name168"></string>
@@ -425,7 +425,7 @@
     <string name="image_name189"></string>
 
     <string name="image_name190">suika</string>
-    <string name="image_name191">ichogo</string>
+    <string name="image_name191">ichigo</string>
     <string name="image_name192">mochi</string>
     <string name="image_name193">wakame</string>
     <string name="image_name194">banana</string>
@@ -501,7 +501,7 @@
     <string name="image_name208"></string>
     <string name="image_name209"></string>
 
-    <string name="image_name210">chi-zu</string>
+    <string name="image_name210">chizu</string>
     <string name="image_name211">mentaiko</string>
     <string name="image_name212">daikon</string>
     <string name="image_name213">tamago</string>
@@ -533,10 +533,10 @@
     <string name="image_name238"></string>
     <string name="image_name239"></string>
 
-    <string name="image_name240">ichogo</string>
+    <string name="image_name240">ichigo</string>
     <string name="image_name241">banana</string>
-    <string name="image_name242">tyokore-to</string>
-    <string name="image_name243">hachiitsu</string>
+    <string name="image_name242">tyokoreto</string>
+    <string name="image_name243">hachimitsu</string>
     <string name="image_name244">suika</string>
     <string name="image_name245">kukki</string>
     <string name="image_name246"></string>
@@ -616,7 +616,7 @@
     <string name="image_name263">shiitake</string>
     <string name="image_name264">maitake</string>
     <string name="image_name265">kabotya</string>
-    <string name="image_name266">butanikubara</string>
+    <string name="image_name266">butaniku</string>
     <string name="image_name267">nira</string>
     <string name="image_name268">kikurage</string>
     <string name="image_name269">gyuukarubi</string>
@@ -631,7 +631,7 @@
     <string name="image_name278"></string>
     <string name="image_name279"></string>
 
-    <string name="image_name280">chi-zu</string>
+    <string name="image_name280">chizu</string>
     <string name="image_name281">ginnan</string>
     <string name="image_name282">gyuusuji</string>
     <string name="image_name283">tomato</string>
@@ -642,13 +642,13 @@
     <string name="image_name288"></string>
     <string name="image_name289"></string>
 
-    <string name="image_name290">hachiitsu</string>
+    <string name="image_name290">hachimitsu</string>
     <string name="image_name291">momo</string>
     <string name="image_name292">ringo</string>
     <string name="image_name293">kukki</string>
     <string name="image_name294">mashumaro</string>
-    <string name="image_name295">tyokore-to</string>
-    <string name="image_name296">ringo</string>
+    <string name="image_name295">tyokoreto</string>
+    <string name="image_name296"></string>
     <string name="image_name297"></string>
     <string name="image_name298"></string>
     <string name="image_name299"></string>
@@ -726,7 +726,7 @@
     <string name="image_name314">ika</string>
     <string name="image_name315">uinna</string>
     <string name="image_name316">bekon</string>
-    <string name="image_name317">chi-zu</string>
+    <string name="image_name317">chizu</string>
     <string name="image_name318">asari</string>
     <string name="image_name319">nasu</string>
     <string name="image_name320">ebi</string>
@@ -746,7 +746,7 @@
     <string name="image_name333">saba</string>
     <string name="image_name334">satsumaimo</string>
     <string name="image_name335">kabotya</string>
-    <string name="image_name336">chi-zu</string>
+    <string name="image_name336">chizu</string>
     <string name="image_name337"></string>
     <string name="image_name338"></string>
     <string name="image_name339"></string>
@@ -829,7 +829,7 @@
     <string name="image_name359"></string>
 
     <string name="image_name360">nagaimo</string>
-    <string name="image_name361">chi-zu</string>
+    <string name="image_name361">chizu</string>
     <string name="image_name362">ebi</string>
     <string name="image_name363">jyagaimo</string>
     <string name="image_name364">kon</string>
@@ -1269,12 +1269,12 @@
     <string name="image_name562">komatsuna</string>
     <string name="image_name563">takenoko</string>
     <string name="image_name564">tomato</string>
-    <string name="image_name565">tara</string>
-    <string name="image_name566">tarako</string>
-    <string name="image_name567">okura</string>
-    <string name="image_name568">shiitake</string>
-    <string name="image_name569">saba</string>
-    <string name="image_name570">tamago</string>
+    <string name="image_name565">tarako</string>
+    <string name="image_name566">okura</string>
+    <string name="image_name567">shiitake</string>
+    <string name="image_name568">saba</string>
+    <string name="image_name569">tamago</string>
+    <string name="image_name570"></string>
     <string name="image_name571"></string>
     <string name="image_name572"></string>
     <string name="image_name573"></string>
@@ -1381,7 +1381,7 @@
     <string name="image_name615">ninniku</string>
     <string name="image_name616">satoimo</string>
     <string name="image_name617">negi</string>
-    <string name="image_name618">chi-zu</string>
+    <string name="image_name618">chizu</string>
     <string name="image_name619">atuage</string>
     <string name="image_name620">mochi</string>
     <string name="image_name621">sirataki</string>
@@ -1700,10 +1700,10 @@
     <string name="image_name758"></string>
     <string name="image_name759"></string>
 
-    <string name="image_name760">agemono</string>
-    <string name="image_name761">toriniku</string>
-    <string name="image_name762">chi-zu</string>
-    <string name="image_name763"></string>
+    <string name="image_name760">toriniku</string>
+    <string name="image_name761">chizu</string>
+    <string name="image_name762">ebi</string>
+    <string name="image_name763">katsu</string>
     <string name="image_name764"></string>
     <string name="image_name765"></string>
     <string name="image_name766"></string>
@@ -1810,15 +1810,15 @@
     <string name="image_name809"></string>
 
     <string name="image_name810">katsu</string>
-    <string name="image_name811">chi-zu</string>
+    <string name="image_name811">chizu</string>
     <string name="image_name812">bekon</string>
     <string name="image_name813">ketyappu</string>
     <string name="image_name814">kyabetsu</string>
     <string name="image_name815">hoippukurimu</string>
     <string name="image_name816">banana</string>
     <string name="image_name817">kyuuri</string>
-    <string name="image_name818"></string>
-    <string name="image_name819"></string>
+    <string name="image_name818">mikan</string>
+    <string name="image_name819">kyuui</string>
     <string name="image_name820"></string>
     <string name="image_name821"></string>
     <string name="image_name822"></string>
@@ -1918,14 +1918,14 @@
     <string name="image_name858"></string>
     <string name="image_name859"></string>
 
-    <string name="image_name860"></string>
-    <string name="image_name861"></string>
-    <string name="image_name862"></string>
-    <string name="image_name863"></string>
-    <string name="image_name864"></string>
-    <string name="image_name865"></string>
-    <string name="image_name866"></string>
-    <string name="image_name867"></string>
+    <string name="image_name860">ika</string>
+    <string name="image_name861">negi</string>
+    <string name="image_name862">ketyappu</string>
+    <string name="image_name863">chizu</string>
+    <string name="image_name864">uinna</string>
+    <string name="image_name865">mochi</string>
+    <string name="image_name866">mentaiko</string>
+    <string name="image_name867">karashi</string>
     <string name="image_name868"></string>
     <string name="image_name869"></string>
     <string name="image_name870"></string>

@@ -55,14 +55,14 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="20dp"
+                android:background="@drawable/text_dish"
+                android:elevation="10dp"
                 android:paddingTop="25dp"
                 android:paddingBottom="25dp"
-                android:background="@drawable/text_dish"
                 android:text=""
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="40sp"
-                android:elevation="10dp"
                 app:backgroundTint="@null" />
 
             <TextView
@@ -73,6 +73,7 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/text_ingredient"
+                android:elevation="10dp"
                 android:paddingStart="70dp"
                 android:paddingTop="50dp"
                 android:paddingBottom="20dp"
@@ -80,26 +81,18 @@
                 android:textAlignment="viewStart"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:elevation="10dp"
                 app:backgroundTint="@null" />
 
-            <Button
+            <ImageView
                 android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="113dp"
-                android:layout_marginLeft="40dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="140dp"
                 android:layout_marginTop="40dp"
-                android:layout_marginRight="40dp"
                 android:layout_marginBottom="40dp"
-                android:background="@drawable/button_change"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                android:text="置き換え"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="34sp"
                 android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
-                app:backgroundTint="@null" />
+                app:srcCompat="@drawable/logo" />
+
         </LinearLayout>
     </ScrollView>
 

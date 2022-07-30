@@ -1,28 +1,18 @@
 package com.example.die;
 
-import android.app.Activity;
-import android.graphics.Color;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
-import android.widget.TextView;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Random;
 
 
@@ -143,7 +133,7 @@ public class CardActivity extends AppCompatActivity {
         }
 
         //カードの裏返し
-        View.OnClickListener event = new View.OnClickListener() {
+        View.OnClickListener reverse = new View.OnClickListener() {
 
 
             @Override
@@ -159,7 +149,7 @@ public class CardActivity extends AppCompatActivity {
         };
 
         //料理選択画面に戻る
-        View.OnClickListener event2 = new View.OnClickListener() {
+        View.OnClickListener home = new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -169,12 +159,13 @@ public class CardActivity extends AppCompatActivity {
         };
 
         //材料を置き換える
-        View.OnClickListener event3 = new View.OnClickListener() {
+        View.OnClickListener change = new View.OnClickListener() {
 
 
+            @SuppressLint("UseCompatLoadingForDrawables")
             @Override
             public void onClick(View v) {
-                if(swi == false && swi2) {
+                if(!swi && swi2) {
                     for (int i = 0; i < 6; i++) {
                         if (v.getId() == ingredientnum[i]) {
                             ((ImageView) findViewById(ingredientnum[i])).setImageResource(viewIdnum[mainch]);
@@ -237,35 +228,35 @@ public class CardActivity extends AppCompatActivity {
             }
         };
 
-        findViewById(R.id.card0).setOnClickListener(event);
-        findViewById(R.id.card1).setOnClickListener(event);
-        findViewById(R.id.card2).setOnClickListener(event);
+        findViewById(R.id.card0).setOnClickListener(reverse);
+        findViewById(R.id.card1).setOnClickListener(reverse);
+        findViewById(R.id.card2).setOnClickListener(reverse);
 
         if (ingnum == 3) {
-            findViewById(ingredientnum[0]).setOnClickListener(event3);
-            findViewById(ingredientnum[1]).setOnClickListener(event3);
-            findViewById(ingredientnum[2]).setOnClickListener(event3);
+            findViewById(ingredientnum[0]).setOnClickListener(change);
+            findViewById(ingredientnum[1]).setOnClickListener(change);
+            findViewById(ingredientnum[2]).setOnClickListener(change);
         } else if (ingnum == 4) {
-            findViewById(ingredientnum[0]).setOnClickListener(event3);
-            findViewById(ingredientnum[1]).setOnClickListener(event3);
-            findViewById(ingredientnum[2]).setOnClickListener(event3);
-            findViewById(ingredientnum[3]).setOnClickListener(event3);
+            findViewById(ingredientnum[0]).setOnClickListener(change);
+            findViewById(ingredientnum[1]).setOnClickListener(change);
+            findViewById(ingredientnum[2]).setOnClickListener(change);
+            findViewById(ingredientnum[3]).setOnClickListener(change);
         } else if (ingnum == 5) {
-            findViewById(ingredientnum[0]).setOnClickListener(event3);
-            findViewById(ingredientnum[1]).setOnClickListener(event3);
-            findViewById(ingredientnum[2]).setOnClickListener(event3);
-            findViewById(ingredientnum[3]).setOnClickListener(event3);
-            findViewById(ingredientnum[4]).setOnClickListener(event3);
+            findViewById(ingredientnum[0]).setOnClickListener(change);
+            findViewById(ingredientnum[1]).setOnClickListener(change);
+            findViewById(ingredientnum[2]).setOnClickListener(change);
+            findViewById(ingredientnum[3]).setOnClickListener(change);
+            findViewById(ingredientnum[4]).setOnClickListener(change);
         } else if (ingnum == 6) {
-            findViewById(ingredientnum[0]).setOnClickListener(event3);
-            findViewById(ingredientnum[1]).setOnClickListener(event3);
-            findViewById(ingredientnum[2]).setOnClickListener(event3);
-            findViewById(ingredientnum[3]).setOnClickListener(event3);
-            findViewById(ingredientnum[4]).setOnClickListener(event3);
-            findViewById(ingredientnum[5]).setOnClickListener(event3);
+            findViewById(ingredientnum[0]).setOnClickListener(change);
+            findViewById(ingredientnum[1]).setOnClickListener(change);
+            findViewById(ingredientnum[2]).setOnClickListener(change);
+            findViewById(ingredientnum[3]).setOnClickListener(change);
+            findViewById(ingredientnum[4]).setOnClickListener(change);
+            findViewById(ingredientnum[5]).setOnClickListener(change);
         }
 
 
-        findViewById(R.id.home).setOnClickListener(event2);
+        findViewById(R.id.home).setOnClickListener(home);
     }
 }

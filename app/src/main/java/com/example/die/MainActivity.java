@@ -2,34 +2,10 @@ package com.example.die;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import android.content.Intent;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-
-
-//xml関係
-import java.io.File;
-import java.io.IOException;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -44,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Public pl = (Public)getApplication();
 
         //料理・材料確認画面に遷移し、また押したボタンのデータを渡す
-        View.OnClickListener event = new View.OnClickListener() {
+        View.OnClickListener move = new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -95,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         //料理選択画面に戻る
-        View.OnClickListener event2 = new View.OnClickListener() {
+        View.OnClickListener home = new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -105,26 +81,26 @@ public class MainActivity extends AppCompatActivity {
         };
 
 
-        findViewById(R.id.button0).setOnClickListener(event);
-        findViewById(R.id.button1).setOnClickListener(event);
-        findViewById(R.id.button2).setOnClickListener(event);
-        findViewById(R.id.button3).setOnClickListener(event);
-        findViewById(R.id.button4).setOnClickListener(event);
-        findViewById(R.id.button5).setOnClickListener(event);
-        findViewById(R.id.button6).setOnClickListener(event);
-        findViewById(R.id.button7).setOnClickListener(event);
-        findViewById(R.id.button8).setOnClickListener(event);
-        findViewById(R.id.button9).setOnClickListener(event);
-        findViewById(R.id.button10).setOnClickListener(event);
-        findViewById(R.id.button11).setOnClickListener(event);
-        findViewById(R.id.button12).setOnClickListener(event);
-        findViewById(R.id.button13).setOnClickListener(event);
-        findViewById(R.id.button14).setOnClickListener(event);
-        findViewById(R.id.button15).setOnClickListener(event);
-        findViewById(R.id.button16).setOnClickListener(event);
-        findViewById(R.id.button17).setOnClickListener(event);
+        findViewById(R.id.button0).setOnClickListener(move);
+        findViewById(R.id.button1).setOnClickListener(move);
+        findViewById(R.id.button2).setOnClickListener(move);
+        findViewById(R.id.button3).setOnClickListener(move);
+        findViewById(R.id.button4).setOnClickListener(move);
+        findViewById(R.id.button5).setOnClickListener(move);
+        findViewById(R.id.button6).setOnClickListener(move);
+        findViewById(R.id.button7).setOnClickListener(move);
+        findViewById(R.id.button8).setOnClickListener(move);
+        findViewById(R.id.button9).setOnClickListener(move);
+        findViewById(R.id.button10).setOnClickListener(move);
+        findViewById(R.id.button11).setOnClickListener(move);
+        findViewById(R.id.button12).setOnClickListener(move);
+        findViewById(R.id.button13).setOnClickListener(move);
+        findViewById(R.id.button14).setOnClickListener(move);
+        findViewById(R.id.button15).setOnClickListener(move);
+        findViewById(R.id.button16).setOnClickListener(move);
+        findViewById(R.id.button17).setOnClickListener(move);
 
-        findViewById(R.id.home).setOnClickListener(event2);
+        findViewById(R.id.home).setOnClickListener(home);
 
     }
 }

@@ -1,16 +1,11 @@
 package com.example.die;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 public class CategoryActivity extends AppCompatActivity {
 
@@ -21,12 +16,7 @@ public class CategoryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_category);
 
         //カード選択画面に遷移する
-        View.OnClickListener event = new View.OnClickListener() {
-
-
-
-            //Mainから受け取った料理の番号
-            Intent intent = getIntent();
+        View.OnClickListener move = new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -49,7 +39,7 @@ public class CategoryActivity extends AppCompatActivity {
         };
 
         //料理選択画面に戻る
-        View.OnClickListener event2 = new View.OnClickListener() {
+        View.OnClickListener home = new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -59,11 +49,11 @@ public class CategoryActivity extends AppCompatActivity {
         };
 
 
-        findViewById(R.id.changebutton1).setOnClickListener(event);
-        findViewById(R.id.changebutton2).setOnClickListener(event);
-        findViewById(R.id.changebutton3).setOnClickListener(event);
+        findViewById(R.id.changebutton1).setOnClickListener(move);
+        findViewById(R.id.changebutton2).setOnClickListener(move);
+        findViewById(R.id.changebutton3).setOnClickListener(move);
 
-        findViewById(R.id.home).setOnClickListener(event2);
+        findViewById(R.id.home).setOnClickListener(home);
     }
 
 
