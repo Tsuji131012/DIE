@@ -64,6 +64,7 @@ public class ChoiceActivity extends AppCompatActivity {
         TextView dv = findViewById(R.id.dish_text);
         TextView iv = findViewById(R.id.ingredient_text);
 
+        int inum = 0;
         Public pl = (Public)getApplication();
         int dinum = pl.getdinum();
         boolean swi = pl.getflag();
@@ -88,13 +89,14 @@ public class ChoiceActivity extends AppCompatActivity {
 
             //これで必要な材料だけ表示できる
             if (ingredient[i].equals("・")){
-                //pl.setting();
                 break;
             }
 
             istr.append(ingredient[i]);
             istr.append("\n");
+            inum++;
         }
+        pl.setingnum(inum);
         dv.setText(dish);
         iv.setText(istr.toString());
         /*

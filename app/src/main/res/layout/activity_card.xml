@@ -24,7 +24,7 @@
         android:layout_width="94dp"
         android:layout_height="90dp"
         android:background="@drawable/button_home"
-        android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+        android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

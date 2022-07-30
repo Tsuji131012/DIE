@@ -12,7 +12,7 @@
         android:layout_height="15dp"
         android:background="#222222"
         android:visibility="visible"
-        android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+        android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -98,7 +98,7 @@
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
         </LinearLayout>
     </ScrollView>

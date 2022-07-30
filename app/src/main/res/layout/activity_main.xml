@@ -24,7 +24,7 @@
         android:layout_width="94dp"
         android:layout_height="90dp"
         android:background="@drawable/button_home"
-        android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+        android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +56,7 @@
                 android:text="チャーハン"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -69,7 +69,7 @@
                 android:text="カレー"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -82,7 +82,7 @@
                 android:text="肉じゃが"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -95,7 +95,7 @@
                 android:text="オムライス"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -108,7 +108,7 @@
                 android:text="牛丼"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -121,7 +121,7 @@
                 android:text="野菜炒め"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -134,7 +134,7 @@
                 android:text="焼きそば"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -147,7 +147,7 @@
                 android:text="お好み焼き"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -160,7 +160,7 @@
                 android:text="豚汁"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -173,7 +173,7 @@
                 android:text="グラタン"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -186,7 +186,7 @@
                 android:text="シチュー"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -199,7 +199,7 @@
                 android:text="麻婆豆腐"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -212,7 +212,7 @@
                 android:text="ポトフ"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -225,7 +225,7 @@
                 android:text="酢豚"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -238,7 +238,7 @@
                 android:text="味噌汁"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -251,7 +251,7 @@
                 android:text="ハンバーガー"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -264,7 +264,7 @@
                 android:text="サンドイッチ"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
             <Button
@@ -277,7 +277,7 @@
                 android:text="たこ焼き"
                 android:textColor="#000000"
                 android:textSize="34sp"
-                android:stateListAnimator="@drawable/button_state_list_anim_material_5dp"
+                android:stateListAnimator="@drawable/button_state_list_anim_material_10dp"
                 app:backgroundTint="@null" />
 
         </LinearLayout>

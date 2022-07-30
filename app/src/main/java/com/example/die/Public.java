@@ -6,7 +6,7 @@ public class Public extends Application {
 
     private int ingnum = 0;
     private int dinum = 0;
-    private int[] ingredient = new int[6];
+    private int[] ingredient = new int[10];
     private boolean swap = false;
 
     @Override
