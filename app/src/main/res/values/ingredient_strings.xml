@@ -795,9 +795,9 @@
     <string name="ingredient_name378">・</string>
     <string name="ingredient_name379">・</string>
 
-    <string name="ingredient_name380">・</string>
-    <string name="ingredient_name381">・</string>
-    <string name="ingredient_name382">・</string>
+    <string name="ingredient_name380">・かぼちゃ</string>
+    <string name="ingredient_name381">・ピーマン</string>
+    <string name="ingredient_name382">・ごぼう</string>
     <string name="ingredient_name383">・</string>
     <string name="ingredient_name384">・</string>
     <string name="ingredient_name385">・</string>
@@ -806,9 +806,9 @@
     <string name="ingredient_name388">・</string>
     <string name="ingredient_name389">・</string>
 
-    <string name="ingredient_name390">・</string>
-    <string name="ingredient_name391">・</string>
-    <string name="ingredient_name392">・</string>
+    <string name="ingredient_name390">・バナナ</string>
+    <string name="ingredient_name391">・桃</string>
+    <string name="ingredient_name392">・大根</string>
     <string name="ingredient_name393">・</string>
     <string name="ingredient_name394">・</string>
     <string name="ingredient_name395">・</string>
@@ -849,9 +849,9 @@
     <string name="image_name378"></string>
     <string name="image_name379"></string>
 
-    <string name="image_name380"></string>
-    <string name="image_name381"></string>
-    <string name="image_name382"></string>
+    <string name="image_name380">kabotya</string>
+    <string name="image_name381">piman</string>
+    <string name="image_name382">gobou</string>
     <string name="image_name383"></string>
     <string name="image_name384"></string>
     <string name="image_name385"></string>
@@ -860,9 +860,9 @@
     <string name="image_name388"></string>
     <string name="image_name389"></string>
 
-    <string name="image_name390"></string>
-    <string name="image_name391"></string>
-    <string name="image_name392"></string>
+    <string name="image_name390">banana</string>
+    <string name="image_name391">momo</string>
+    <string name="image_name392">daikon</string>
     <string name="image_name393"></string>
     <string name="image_name394"></string>
     <string name="image_name395"></string>
@@ -904,9 +904,9 @@
     <string name="ingredient_name428">・</string>
     <string name="ingredient_name429">・</string>
 
-    <string name="ingredient_name430">・</string>
-    <string name="ingredient_name431">・</string>
-    <string name="ingredient_name432">・</string>
+    <string name="ingredient_name430">・納豆</string>
+    <string name="ingredient_name431">・イカ</string>
+    <string name="ingredient_name432">・鮭</string>
     <string name="ingredient_name433">・</string>
     <string name="ingredient_name434">・</string>
     <string name="ingredient_name435">・</string>
@@ -915,9 +915,9 @@
     <string name="ingredient_name438">・</string>
     <string name="ingredient_name439">・</string>
 
-    <string name="ingredient_name440">・</string>
-    <string name="ingredient_name441">・</string>
-    <string name="ingredient_name442">・</string>
+    <string name="ingredient_name440">・マシュマロ</string>
+    <string name="ingredient_name441">・ケチャップ</string>
+    <string name="ingredient_name442">・チョコレート</string>
     <string name="ingredient_name443">・</string>
     <string name="ingredient_name444">・</string>
     <string name="ingredient_name445">・</string>
@@ -958,9 +958,9 @@
     <string name="image_name428"></string>
     <string name="image_name429"></string>
 
-    <string name="image_name430"></string>
-    <string name="image_name431"></string>
-    <string name="image_name432"></string>
+    <string name="image_name430">nattou</string>
+    <string name="image_name431">ika</string>
+    <string name="image_name432">sake</string>
     <string name="image_name433"></string>
     <string name="image_name434"></string>
     <string name="image_name435"></string>
@@ -969,9 +969,9 @@
     <string name="image_name438"></string>
     <string name="image_name439"></string>
 
-    <string name="image_name440"></string>
-    <string name="image_name441"></string>
-    <string name="image_name442"></string>
+    <string name="image_name440">mashumaro</string>
+    <string name="image_name441">ketyappu</string>
+    <string name="image_name442">tyokoreto</string>
     <string name="image_name443"></string>
     <string name="image_name444"></string>
     <string name="image_name445"></string>
@@ -1013,9 +1013,9 @@
     <string name="ingredient_name478">・</string>
     <string name="ingredient_name479">・</string>
 
-    <string name="ingredient_name480">・</string>
-    <string name="ingredient_name481">・</string>
-    <string name="ingredient_name482">・</string>
+    <string name="ingredient_name480">・枝豆</string>
+    <string name="ingredient_name481">・オクラ</string>
+    <string name="ingredient_name482">・きくらげ</string>
     <string name="ingredient_name483">・</string>
     <string name="ingredient_name484">・</string>
     <string name="ingredient_name485">・</string>
@@ -1024,9 +1024,9 @@
     <string name="ingredient_name488">・</string>
     <string name="ingredient_name489">・</string>
 
-    <string name="ingredient_name490">・</string>
-    <string name="ingredient_name491">・</string>
-    <string name="ingredient_name492">・</string>
+    <string name="ingredient_name490">・春雨</string>
+    <string name="ingredient_name491">・マグロ</string>
+    <string name="ingredient_name492">・わかめ</string>
     <string name="ingredient_name493">・</string>
     <string name="ingredient_name494">・</string>
     <string name="ingredient_name495">・</string>
@@ -1067,9 +1067,9 @@
     <string name="image_name478"></string>
     <string name="image_name479"></string>
 
-    <string name="image_name480"></string>
-    <string name="image_name481"></string>
-    <string name="image_name482"></string>
+    <string name="image_name480">edamame</string>
+    <string name="image_name481">okura</string>
+    <string name="image_name482">kikurage</string>
     <string name="image_name483"></string>
     <string name="image_name484"></string>
     <string name="image_name485"></string>
@@ -1078,9 +1078,9 @@
     <string name="image_name488"></string>
     <string name="image_name489"></string>
 
-    <string name="image_name490"></string>
-    <string name="image_name491"></string>
-    <string name="image_name492"></string>
+    <string name="image_name490">harusame</string>
+    <string name="image_name491">maguro</string>
+    <string name="image_name492">wakame</string>
     <string name="image_name493"></string>
     <string name="image_name494"></string>
     <string name="image_name495"></string>
@@ -1122,9 +1122,9 @@
     <string name="ingredient_name528">・</string>
     <string name="ingredient_name529">・</string>
 
-    <string name="ingredient_name530">・</string>
-    <string name="ingredient_name531">・</string>
-    <string name="ingredient_name532">・</string>
+    <string name="ingredient_name530">・カニカマ</string>
+    <string name="ingredient_name531">・銀杏</string>
+    <string name="ingredient_name532">・サツマイモ</string>
     <string name="ingredient_name533">・</string>
     <string name="ingredient_name534">・</string>
     <string name="ingredient_name535">・</string>
@@ -1133,9 +1133,9 @@
     <string name="ingredient_name538">・</string>
     <string name="ingredient_name539">・</string>
 
-    <string name="ingredient_name540">・</string>
-    <string name="ingredient_name541">・</string>
-    <string name="ingredient_name542">・</string>
+    <string name="ingredient_name540">・こんにゃく</string>
+    <string name="ingredient_name541">・キュウリ</string>
+    <string name="ingredient_name542">・なす</string>
     <string name="ingredient_name543">・</string>
     <string name="ingredient_name544">・</string>
     <string name="ingredient_name545">・</string>
@@ -1176,9 +1176,9 @@
     <string name="image_name528"></string>
     <string name="image_name529"></string>
 
-    <string name="image_name530"></string>
-    <string name="image_name531"></string>
-    <string name="image_name532"></string>
+    <string name="image_name530">kanikama</string>
+    <string name="image_name531">ginnan</string>
+    <string name="image_name532">satsumaimo</string>
     <string name="image_name533"></string>
     <string name="image_name534"></string>
     <string name="image_name535"></string>
@@ -1187,9 +1187,9 @@
     <string name="image_name538"></string>
     <string name="image_name539"></string>
 
-    <string name="image_name540"></string>
-    <string name="image_name541"></string>
-    <string name="image_name542"></string>
+    <string name="image_name540">konnyaku</string>
+    <string name="image_name541">kyuuri</string>
+    <string name="image_name542">nasu</string>
     <string name="image_name543"></string>
     <string name="image_name544"></string>
     <string name="image_name545"></string>
@@ -1231,9 +1231,9 @@
     <string name="ingredient_name578">・</string>
     <string name="ingredient_name579">・</string>
 
-    <string name="ingredient_name580">・</string>
-    <string name="ingredient_name581">・</string>
-    <string name="ingredient_name582">・</string>
+    <string name="ingredient_name580">・いくら</string>
+    <string name="ingredient_name581">・枝豆</string>
+    <string name="ingredient_name582">・ベーコン</string>
     <string name="ingredient_name583">・</string>
     <string name="ingredient_name584">・</string>
     <string name="ingredient_name585">・</string>
@@ -1242,9 +1242,9 @@
     <string name="ingredient_name588">・</string>
     <string name="ingredient_name589">・</string>
 
-    <string name="ingredient_name590">・</string>
-    <string name="ingredient_name591">・</string>
-    <string name="ingredient_name592">・</string>
+    <string name="ingredient_name590">・納豆</string>
+    <string name="ingredient_name591">・大根</string>
+    <string name="ingredient_name592">・もやし</string>
     <string name="ingredient_name593">・</string>
     <string name="ingredient_name594">・</string>
     <string name="ingredient_name595">・</string>
@@ -1285,9 +1285,9 @@
     <string name="image_name578"></string>
     <string name="image_name579"></string>
 
-    <string name="image_name580"></string>
-    <string name="image_name581"></string>
-    <string name="image_name582"></string>
+    <string name="image_name580">ikura</string>
+    <string name="image_name581">edamame</string>
+    <string name="image_name582">bekon</string>
     <string name="image_name583"></string>
     <string name="image_name584"></string>
     <string name="image_name585"></string>
@@ -1296,9 +1296,9 @@
     <string name="image_name588"></string>
     <string name="image_name589"></string>
 
-    <string name="image_name590"></string>
-    <string name="image_name591"></string>
-    <string name="image_name592"></string>
+    <string name="image_name590">nattou</string>
+    <string name="image_name591">daikon</string>
+    <string name="image_name592">moyashi</string>
     <string name="image_name593"></string>
     <string name="image_name594"></string>
     <string name="image_name595"></string>
@@ -1340,9 +1340,9 @@
     <string name="ingredient_name628">・</string>
     <string name="ingredient_name629">・</string>
 
-    <string name="ingredient_name630">・</string>
-    <string name="ingredient_name631">・</string>
-    <string name="ingredient_name632">・</string>
+    <string name="ingredient_name630">・きくらげ</string>
+    <string name="ingredient_name631">・ホタテ</string>
+    <string name="ingredient_name632">・アスパラ</string>
     <string name="ingredient_name633">・</string>
     <string name="ingredient_name634">・</string>
     <string name="ingredient_name635">・</string>
@@ -1351,9 +1351,9 @@
     <string name="ingredient_name638">・</string>
     <string name="ingredient_name639">・</string>
 
-    <string name="ingredient_name640">・</string>
-    <string name="ingredient_name641">・</string>
-    <string name="ingredient_name642">・</string>
+    <string name="ingredient_name640">・キュウリ</string>
+    <string name="ingredient_name641">・大根</string>
+    <string name="ingredient_name642">・納豆</string>
     <string name="ingredient_name643">・</string>
     <string name="ingredient_name644">・</string>
     <string name="ingredient_name645">・</string>
@@ -1394,9 +1394,9 @@
     <string name="image_name628"></string>
     <string name="image_name629"></string>
 
-    <string name="image_name630"></string>
-    <string name="image_name631"></string>
-    <string name="image_name632"></string>
+    <string name="image_name630">kikurage</string>
+    <string name="image_name631">hotate</string>
+    <string name="image_name632">asupara</string>
     <string name="image_name633"></string>
     <string name="image_name634"></string>
     <string name="image_name635"></string>
@@ -1405,9 +1405,9 @@
     <string name="image_name638"></string>
     <string name="image_name639"></string>
 
-    <string name="image_name640"></string>
-    <string name="image_name641"></string>
-    <string name="image_name642"></string>
+    <string name="image_name640">kyuuri</string>
+    <string name="image_name641">daikon</string>
+    <string name="image_name642">nattou</string>
     <string name="image_name643"></string>
     <string name="image_name644"></string>
     <string name="image_name645"></string>
@@ -1449,9 +1449,9 @@
     <string name="ingredient_name678">・</string>
     <string name="ingredient_name679">・</string>
 
-    <string name="ingredient_name680">・</string>
-    <string name="ingredient_name681">・</string>
-    <string name="ingredient_name682">・</string>
+    <string name="ingredient_name680">・油揚げ</string>
+    <string name="ingredient_name681">・ホタテ</string>
+    <string name="ingredient_name682">・チーズ</string>
     <string name="ingredient_name683">・</string>
     <string name="ingredient_name684">・</string>
     <string name="ingredient_name685">・</string>
@@ -1460,9 +1460,9 @@
     <string name="ingredient_name688">・</string>
     <string name="ingredient_name689">・</string>
 
-    <string name="ingredient_name690">・</string>
-    <string name="ingredient_name691">・</string>
-    <string name="ingredient_name692">・</string>
+    <string name="ingredient_name690">・メロン</string>
+    <string name="ingredient_name691">・チョコレート</string>
+    <string name="ingredient_name692">・こんにゃく</string>
     <string name="ingredient_name693">・</string>
     <string name="ingredient_name694">・</string>
     <string name="ingredient_name695">・</string>
@@ -1503,9 +1503,9 @@
     <string name="image_name678"></string>
     <string name="image_name679"></string>
 
-    <string name="image_name680"></string>
-    <string name="image_name681"></string>
-    <string name="image_name682"></string>
+    <string name="image_name680">aburaage</string>
+    <string name="image_name681">hotate</string>
+    <string name="image_name682">chizu</string>
     <string name="image_name683"></string>
     <string name="image_name684"></string>
     <string name="image_name685"></string>
@@ -1514,9 +1514,9 @@
     <string name="image_name688"></string>
     <string name="image_name689"></string>
 
-    <string name="image_name690"></string>
-    <string name="image_name691"></string>
-    <string name="image_name692"></string>
+    <string name="image_name690">meron</string>
+    <string name="image_name691">tyokoreto</string>
+    <string name="image_name692">konnyaku</string>
     <string name="image_name693"></string>
     <string name="image_name694"></string>
     <string name="image_name695"></string>
@@ -1558,9 +1558,9 @@
     <string name="ingredient_name728">・</string>
     <string name="ingredient_name729">・</string>
 
-    <string name="ingredient_name730">・</string>
-    <string name="ingredient_name731">・</string>
-    <string name="ingredient_name732">・</string>
+    <string name="ingredient_name730">・チーズ</string>
+    <string name="ingredient_name731">・春雨</string>
+    <string name="ingredient_name732">・イカ</string>
     <string name="ingredient_name733">・</string>
     <string name="ingredient_name734">・</string>
     <string name="ingredient_name735">・</string>
@@ -1569,9 +1569,9 @@
     <string name="ingredient_name738">・</string>
     <string name="ingredient_name739">・</string>
 
-    <string name="ingredient_name740">・</string>
-    <string name="ingredient_name741">・</string>
-    <string name="ingredient_name742">・</string>
+    <string name="ingredient_name740">・ホイップクリーム</string>
+    <string name="ingredient_name741">・マヨネーズ</string>
+    <string name="ingredient_name742">・レタス</string>
     <string name="ingredient_name743">・</string>
     <string name="ingredient_name744">・</string>
     <string name="ingredient_name745">・</string>
@@ -1612,9 +1612,9 @@
     <string name="image_name728"></string>
     <string name="image_name729"></string>
 
-    <string name="image_name730"></string>
-    <string name="image_name731"></string>
-    <string name="image_name732"></string>
+    <string name="image_name730">chizu</string>
+    <string name="image_name731">harusame</string>
+    <string name="image_name732">ika</string>
     <string name="image_name733"></string>
     <string name="image_name734"></string>
     <string name="image_name735"></string>
@@ -1623,9 +1623,9 @@
     <string name="image_name738"></string>
     <string name="image_name739"></string>
 
-    <string name="image_name740"></string>
-    <string name="image_name741"></string>
-    <string name="image_name742"></string>
+    <string name="image_name740">hoippukurimu</string>
+    <string name="image_name741">mayonezu</string>
+    <string name="image_name742">retasu</string>
     <string name="image_name743"></string>
     <string name="image_name744"></string>
     <string name="image_name745"></string>
@@ -1667,9 +1667,9 @@
     <string name="ingredient_name778">・</string>
     <string name="ingredient_name779">・</string>
 
-    <string name="ingredient_name780">・</string>
-    <string name="ingredient_name781">・</string>
-    <string name="ingredient_name782">・</string>
+    <string name="ingredient_name780">・ホタテ</string>
+    <string name="ingredient_name781">・パイナップル</string>
+    <string name="ingredient_name782">・厚揚げ</string>
     <string name="ingredient_name783">・</string>
     <string name="ingredient_name784">・</string>
     <string name="ingredient_name785">・</string>
@@ -1678,9 +1678,9 @@
     <string name="ingredient_name788">・</string>
     <string name="ingredient_name789">・</string>
 
-    <string name="ingredient_name790">・</string>
-    <string name="ingredient_name791">・</string>
-    <string name="ingredient_name792">・</string>
+    <string name="ingredient_name790">・しじみ</string>
+    <string name="ingredient_name791">・桃</string>
+    <string name="ingredient_name792">・チョコレート</string>
     <string name="ingredient_name793">・</string>
     <string name="ingredient_name794">・</string>
     <string name="ingredient_name795">・</string>
@@ -1721,9 +1721,9 @@
     <string name="image_name778"></string>
     <string name="image_name779"></string>
 
-    <string name="image_name780"></string>
-    <string name="image_name781"></string>
-    <string name="image_name782"></string>
+    <string name="image_name780">hotate</string>
+    <string name="image_name781">painappuru</string>
+    <string name="image_name782">atsuage</string>
     <string name="image_name783"></string>
     <string name="image_name784"></string>
     <string name="image_name785"></string>
@@ -1732,9 +1732,9 @@
     <string name="image_name788"></string>
     <string name="image_name789"></string>
 
-    <string name="image_name790"></string>
-    <string name="image_name791"></string>
-    <string name="image_name792"></string>
+    <string name="image_name790">shijimi</string>
+    <string name="image_name791">momo</string>
+    <string name="image_name792">tyokoreto</string>
     <string name="image_name793"></string>
     <string name="image_name794"></string>
     <string name="image_name795"></string>
@@ -1776,9 +1776,9 @@
     <string name="ingredient_name828">・</string>
     <string name="ingredient_name829">・</string>
 
-    <string name="ingredient_name830">・</string>
-    <string name="ingredient_name831">・</string>
-    <string name="ingredient_name832">・</string>
+    <string name="ingredient_name830">・ホタテ</string>
+    <string name="ingredient_name831">・ピクルス</string>
+    <string name="ingredient_name832">・パイナップル</string>
     <string name="ingredient_name833">・</string>
     <string name="ingredient_name834">・</string>
     <string name="ingredient_name835">・</string>
@@ -1787,9 +1787,9 @@
     <string name="ingredient_name838">・</string>
     <string name="ingredient_name839">・</string>
 
-    <string name="ingredient_name840">・</string>
-    <string name="ingredient_name841">・</string>
-    <string name="ingredient_name842">・</string>
+    <string name="ingredient_name840">・しじみ</string>
+    <string name="ingredient_name841">・長芋</string>
+    <string name="ingredient_name842">・餅</string>
     <string name="ingredient_name843">・</string>
     <string name="ingredient_name844">・</string>
     <string name="ingredient_name845">・</string>
@@ -1830,9 +1830,9 @@
     <string name="image_name828"></string>
     <string name="image_name829"></string>
 
-    <string name="image_name830"></string>
-    <string name="image_name831"></string>
-    <string name="image_name832"></string>
+    <string name="image_name830">hotate</string>
+    <string name="image_name831">pikurusu</string>
+    <string name="image_name832">painappuru</string>
     <string name="image_name833"></string>
     <string name="image_name834"></string>
     <string name="image_name835"></string>
@@ -1841,9 +1841,9 @@
     <string name="image_name838"></string>
     <string name="image_name839"></string>
 
-    <string name="image_name840"></string>
-    <string name="image_name841"></string>
-    <string name="image_name842"></string>
+    <string name="image_name840">shijimi</string>
+    <string name="image_name841">nagaimo</string>
+    <string name="image_name842">mochi</string>
     <string name="image_name843"></string>
     <string name="image_name844"></string>
     <string name="image_name845"></string>
@@ -1885,9 +1885,9 @@
     <string name="ingredient_name878">・</string>
     <string name="ingredient_name879">・</string>
 
-    <string name="ingredient_name880">・</string>
-    <string name="ingredient_name881">・</string>
-    <string name="ingredient_name882">・</string>
+    <string name="ingredient_name880">・大根</string>
+    <string name="ingredient_name881">・まぐろ</string>
+    <string name="ingredient_name882">・ほうれん草</string>
     <string name="ingredient_name883">・</string>
     <string name="ingredient_name884">・</string>
     <string name="ingredient_name885">・</string>
@@ -1896,9 +1896,9 @@
     <string name="ingredient_name888">・</string>
     <string name="ingredient_name889">・</string>
 
-    <string name="ingredient_name890">・</string>
-    <string name="ingredient_name891">・</string>
-    <string name="ingredient_name892">・</string>
+    <string name="ingredient_name890">・ミカン</string>
+    <string name="ingredient_name891">・メロン</string>
+    <string name="ingredient_name892">・ワサビ</string>
     <string name="ingredient_name893">・</string>
     <string name="ingredient_name894">・</string>
     <string name="ingredient_name895">・</string>
@@ -1939,9 +1939,9 @@
     <string name="image_name878"></string>
     <string name="image_name879"></string>
 
-    <string name="image_name880"></string>
-    <string name="image_name881"></string>
-    <string name="image_name882"></string>
+    <string name="image_name880">daikon</string>
+    <string name="image_name881">maguro</string>
+    <string name="image_name882">kourensou</string>
     <string name="image_name883"></string>
     <string name="image_name884"></string>
     <string name="image_name885"></string>
@@ -1950,9 +1950,9 @@
     <string name="image_name888"></string>
     <string name="image_name889"></string>
 
-    <string name="image_name890"></string>
-    <string name="image_name891"></string>
-    <string name="image_name892"></string>
+    <string name="image_name890">mikan</string>
+    <string name="image_name891">meron</string>
+    <string name="image_name892">wasabi</string>
     <string name="image_name893"></string>
     <string name="image_name894"></string>
     <string name="image_name895"></string>

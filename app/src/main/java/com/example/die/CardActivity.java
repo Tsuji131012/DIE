@@ -182,9 +182,10 @@ public class CardActivity extends AppCompatActivity {
                     }
                     pl.setflag(true);
 
+                    //ポップアップウィンドウ作成
                     PopupWindow mPopupWindow = new PopupWindow(CardActivity.this);
 
-                    // レイアウト設定
+
                     View popupView = getLayoutInflater().inflate(R.layout.popup, null);
                     popupView.findViewById(R.id.out_button).setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -209,16 +210,16 @@ public class CardActivity extends AppCompatActivity {
                     });
                     mPopupWindow.setContentView(popupView);
 
-                    // 背景設定
+
                     mPopupWindow.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_main, null));
 
                     // タップ時に他のViewでキャッチされないための設定
                     mPopupWindow.setOutsideTouchable(false);
                     mPopupWindow.setFocusable(false);
 
-                    // 表示サイズの設定 今回は幅300dp
-                    float width = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 350, getResources().getDisplayMetrics());
-                    float height = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 380, getResources().getDisplayMetrics());
+                    // 表示サイズの設定
+                    float width = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 300, getResources().getDisplayMetrics());
+                    float height = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 230, getResources().getDisplayMetrics());
                     mPopupWindow.setWidth((int) width);
                     mPopupWindow.setHeight((int) height);
 

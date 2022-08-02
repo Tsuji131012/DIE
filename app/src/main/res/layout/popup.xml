@@ -7,25 +7,25 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="まだ置き換えますか？"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textSize="32sp" />
+        android:textSize="26sp" />
 
     <Button
         android:id="@+id/continue_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/button_main"
         android:backgroundTint="@null"
         android:text="まだする"
         android:textAlignment="center"
-        android:textSize="32sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/out_button"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/button_main"
         android:backgroundTint="@null"
@@ -42,6 +42,6 @@
         android:paddingRight="30dp"
         android:text="終わる"
         android:textAlignment="center"
-        android:textSize="32sp" />
+        android:textSize="20sp" />
 
 </LinearLayout>
